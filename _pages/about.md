@@ -157,9 +157,9 @@ window.onload = function() {
 
 <style>
 #slider img {
-    max-height: 300px;
+    max-height: 400px;
     height: auto;
-    min-width: 50px; /* 假设最小宽度是50px，根据实际情况调整 */
+    min-width: 40px; /* 假设最小宽度是50px，根据实际情况调整 */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     border: 1px solid #ddd;
     margin-right: 5px;
