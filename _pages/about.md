@@ -104,17 +104,17 @@ Fang Guo\*, **Wenyu Li\***, Honglei Zhuang, Yun Luo, Yafu Li, Qi Zhu, Le Yan, Yu
 - *2019.10 - 2020.11*, Visitor, Mentor: Dr. Yadong Li, **University of Science and Technology of China**, Hefei, China.
 
 # 💻 My insteresting Life
-- *2023.02*, **I cycled around Hainan Island in nine days, about 850 KM**<br><img src="images/COLM24.png" alt="" title="" width="600" height=auto/><br>
-- *2022.10*, **I starred in a drama, which received an overwhelming response and received reports from Guangdong Province**<br><img src="images/COLM24.png" alt="111" title="" width="600" height=auto/>
+- *2023.02*, **I cycled around Hainan Island in nine days, about 850 KM**<br><img src="images/COLM24.png" alt="" title="" width="500" height=auto/><br>
+- *2022.10*, **I starred in a drama, which received an overwhelming response and received reports from Guangdong Province**<br><img src="images/COLM24.png" alt="111" title="" width="500" height=auto/>
 
-**I like football and travelling, especially with my girlfriends.**
+- **All in all, I am an interesting person, I like football and travelling, especially with my girlfriend.**
 <div id="slider" style="width: 800px; overflow: hidden;">
-    <div style="width: 3000px; display: flex; animation: scroll 30s linear infinite;">
-        <img src="images/COLM24.png" alt="Image 1" style="width: 600px; height: auto;">
-        <img src="images/COLM24.png" alt="Image 2" style="width: 600px; height: auto;">
-        <img src="images/COLM24.png" alt="Image 3" style="width: 600px; height: auto;">
-        <img src="images/COLM24.png" alt="Image 4" style="width: 600px; height: auto;">
-        <img src="images/COLM24.png" alt="Image 5" style="width: 600px; height: auto;">
+    <div style="width: 2500px; display: flex; animation: scroll 30s linear infinite;">
+        <img src="images/COLM24.png" alt="Image 1" style="width: 500px; height: auto;">
+        <img src="images/COLM24.png" alt="Image 2" style="width: 500px; height: auto;">
+        <img src="images/COLM24.png" alt="Image 3" style="width: 500px; height: auto;">
+        <img src="images/COLM24.png" alt="Image 4" style="width: 500px; height: auto;">
+        <img src="images/COLM24.png" alt="Image 5" style="width: 500px; height: auto;">
     </div>
 </div>
 
