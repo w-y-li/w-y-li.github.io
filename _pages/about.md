@@ -38,7 +38,7 @@ As I continue to delve into the realm of LLMs, I would love to continue my resea
 
 # 📝 Publications 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">COLM 2024 Under Review</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">COLM 2024 Under Review</div><img src='images/COLM24.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Generating Diverse Criteria On-the-Fly to Improve Pointwise LLM Rankers](https://arxiv.org/abs/2404.11960)
@@ -50,7 +50,7 @@ Fang Guo\*, **Wenyu Li\***, Honglei Zhuang, Yun Luo, Yafu Li, Qi Zhu, Le Yan, Yu
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">WWW 2024 Short Paper</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">WWW 2024 Short Paper</div><img src='images/WWW24.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Zero-shot Explainable Mental Health Analysis on Social Media by Incorporating Mental Scales](https://arxiv.org/abs/2402.10948)
