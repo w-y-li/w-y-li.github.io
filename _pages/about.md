@@ -30,7 +30,7 @@ As I continue to delve into the realm of LLMs, I would love to continue my resea
 # 🔥 News
 - *2024.05*: &nbsp;🎉🎉 I will start a new journey visiting Prof. Zhiyuan Liu at Tsinghua University!
 - *2024.04*: &nbsp;🎉🎉 Our paper *Generating Diverse Criteria On-the-Fly to Improve Pointwise LLM Rankers* has been put on [Arxiv](https://arxiv.org/abs/2404.11960), welcome to have a look!
-- *2024.03*: &nbsp;🎉🎉 My first paper *Zero-shot Explainable Mental Health Analysis on Social Media by Incorporating Mental Scales* has been  as Short Paper, <span style="color:red;">accepted by The Web Conference (WWW) 2024</span>!
+- *2024.03*: &nbsp;🎉🎉 My first paper *Zero-shot Explainable Mental Health Analysis on Social Media by Incorporating Mental Scales* has been <span style="color:red;">accepted by The Web Conference (WWW) 2024</span> as Short Paper!
 - *2023.07*: &nbsp;🎉🎉 I will start visiting Prof. Yue Zhang's lab at Westlake University!
 - *2023.06*: &nbsp;🎉🎉 I have been granted my first China patent!
 - *2023.05*: &nbsp;🎉🎉 Our project *Design of a Depression Risk Assessment System Based on Psychological Scales and AIGC Large Models* secured a National Project Approval under the China College Students' Innovation and Entrepreneurship Training Program!
