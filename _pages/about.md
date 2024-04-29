@@ -109,7 +109,7 @@ Fang Guo\*, **Wenyu Li\***, Honglei Zhuang, Yun Luo, Yafu Li, Qi Zhu, Le Yan, Yu
 <br><br><br>
 - **I like football and travelling, especially with my girlfriend.**
 <div id="slider" style="width: 800px; overflow: hidden;">
-    <div id="slider-inner" style="display: flex; animation: scroll 50s linear infinite;">
+    <div id="slider-inner" style="display: flex; animation: scroll 40s linear infinite;">
         <!-- 图片集合 -->
         <!-- 第一组图片 -->
         <img src="images/1.png" alt="Image 1">
@@ -124,7 +124,6 @@ Fang Guo\*, **Wenyu Li\***, Honglei Zhuang, Yun Luo, Yafu Li, Qi Zhu, Le Yan, Yu
         <img src="images/10.png" alt="Image 10">
         <img src="images/11.png" alt="Image 11">
         <img src="images/12.png" alt="Image 12">
-        <img src="images/13.png" alt="Image 13">
         <img src="images/14.png" alt="Image 14">
         <!-- 第二组图片（复制的第一组） -->
         <img src="images/1.png" alt="Image 1">
@@ -139,7 +138,6 @@ Fang Guo\*, **Wenyu Li\***, Honglei Zhuang, Yun Luo, Yafu Li, Qi Zhu, Le Yan, Yu
         <img src="images/10.png" alt="Image 10">
         <img src="images/11.png" alt="Image 11">
         <img src="images/12.png" alt="Image 12">
-        <img src="images/13.png" alt="Image 13">
         <img src="images/14.png" alt="Image 14">
     </div>
 </div>
