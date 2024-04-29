@@ -72,19 +72,19 @@ Fang Guo\*, **Wenyu Li\***, Honglei Zhuang, Yun Luo, Yafu Li, Qi Zhu, Le Yan, Yu
 
 
 # 🎖 Honors and Awards
-- *2023.11*  Third-Class South China University of Technology Scholarship. 
-- *2023.11*  Third-class Excellence Group Enterprise Donated Scholarship.
-- *2023.03*  Future Innovation Award, Future Technology Taihu Innovation Award by Wuxi government.
-- *2023.03*  Study Abroad Innovation Award, Future Technology Taihu Innovation Award by Wuxi government.
-- *2023.03*  First-class Science and Technology Innovation Award, Future Technology Taihu Innovation Award by Wuxi government, .
-- *2023.03*  Third-class Academic Innovation Award, Future Technology Taihu Innovation Award by Wuxi government.
-- *2023.01*  First Prize, Asia and Pacific Mathematical Contest in Modeling.
-- *2022.12*  First-class Hong Ping Chang Qing Fund Student Science and Technology Innovation Competition Scholarship.
-- *2022.11*  Third-Class South China University of Technology Scholarship.
-- *2022.11*  Third-class TCL Enterprise Donated Scholarship.
-- *2022.10*  Second Prize, China National Collegiate Mathematics Modeling Competition (Guangdong Provincial Division).
-- *2022.06*  Second Prize, 12th MathorCup College Mathematical Modeling Competition.
-- *2021.11*  Second Prize, Future Technology - Baidu PaddlePaddle Cup Student Science and Technology Project Competition. 
+- *2023.11*:&nbsp;  Third-Class South China University of Technology Scholarship. 
+- *2023.11*:&nbsp;  Third-class Excellence Group Enterprise Donated Scholarship.
+- *2023.03*:&nbsp;  Future Innovation Award, Future Technology Taihu Innovation Award by Wuxi government.
+- *2023.03*:&nbsp;  Study Abroad Innovation Award, Future Technology Taihu Innovation Award by Wuxi government.
+- *2023.03*:&nbsp;  First-class Science and Technology Innovation Award, Future Technology Taihu Innovation Award by Wuxi government, .
+- *2023.03*:&nbsp;  Third-class Academic Innovation Award, Future Technology Taihu Innovation Award by Wuxi government.
+- *2023.01*:&nbsp;  First Prize, Asia and Pacific Mathematical Contest in Modeling.
+- *2022.12*:&nbsp;  First-class Hong Ping Chang Qing Fund Student Science and Technology Innovation Competition Scholarship.
+- *2022.11*:&nbsp;  Third-Class South China University of Technology Scholarship.
+- *2022.11*:&nbsp;  Third-class TCL Enterprise Donated Scholarship.
+- *2022.10*:&nbsp;  Second Prize, China National Collegiate Mathematics Modeling Competition (Guangdong Provincial Division).
+- *2022.06*:&nbsp;  Second Prize, 12th MathorCup College Mathematical Modeling Competition.
+- *2021.11*:&nbsp;  Second Prize, Future Technology - Baidu PaddlePaddle Cup Student Science and Technology Project Competition. 
 
 # 📖 Educations
 - *2021.06 - present*, South China University of Technology, Bachelor's degree.
@@ -104,8 +104,8 @@ Fang Guo\*, **Wenyu Li\***, Honglei Zhuang, Yun Luo, Yafu Li, Qi Zhu, Le Yan, Yu
 - *2019.10 - 2020.11*, Visitor, Mentor: Dr. Yadong Li, **University of Science and Technology of China**, Hefei, China.
 
 # 💻 My insteresting Life
-- **2023.02** I cycled around Hainan Island in nine days (About 850 KM)<br><img src="images/COLM24.png" alt="" title="" width="600" height=auto/>
-- **2022.10** I starred in a drama, which received an overwhelming response and received reports from Guangdong Province<br><img src="images/COLM24.png" alt="111" title="" width="600" height=auto/>
+- *2023.02*, **I cycled around Hainan Island in nine days, about 850 KM**<br><img src="images/COLM24.png" alt="" title="" width="600" height=auto/><br>
+- *2022.10*, **I starred in a drama, which received an overwhelming response and received reports from Guangdong Province**<br><img src="images/COLM24.png" alt="111" title="" width="600" height=auto/>
 
 **I like football and travelling, especially with my girlfriends.**
 <div id="slider" style="width: 800px; overflow: hidden;">
