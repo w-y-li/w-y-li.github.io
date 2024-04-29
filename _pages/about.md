@@ -108,11 +108,6 @@ Fang Guo\*, **Wenyu Li\***, Honglei Zhuang, Yun Luo, Yafu Li, Qi Zhu, Le Yan, Yu
 - *2022.10*, **I starred in a drama, which received an overwhelming response and received reports from Guangdong Province**<br><br><img src="images/drama.png" alt="" title="" width="300" height=auto/>
 <br><br><br>
 - **I like football and travelling, especially with my girlfriend.**
-<div id="slider" style="width: 800px; overflow: hidden;">
-    <div class="slider-container" style="display: flex; animation: scroll 10s linear infinite;">
-
-    </div>
-</div>
 
 <div id="slider" style="width: 800px; overflow: hidden;">
     <div id="slider-inner" style="display: flex; animation: scroll 20s linear infinite;">
