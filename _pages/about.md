@@ -108,8 +108,8 @@ Fang Guo\*, **Wenyu Li\***, Honglei Zhuang, Yun Luo, Yafu Li, Qi Zhu, Le Yan, Yu
 - *2022.10*, **I starred in a drama, which received an overwhelming response and received reports from Guangdong Province**<br><br><img src="images/drama.png" alt="" title="" width="300" height=auto/>
 <br><br><br>
 - **I like football and travelling, especially with my girlfriend.**
-<div id="slider" style="width: 800px; overflow: hidden;">
-    <div id="slider-inner" style="display: flex; animation: scroll 40s linear infinite;">
+<div id="slider" style="width: 1000px; overflow: hidden;">
+    <div id="slider-inner" style="display: flex; animation: scroll 80s linear infinite;">
         <!-- 图片集合 -->
         <!-- 第一组图片 -->
         <img src="images/1.png" alt="Image 1">
@@ -155,7 +155,7 @@ window.onload = function() {
 
 <style>
 #slider img {
-    max-height: 400px;
+    max-height: 250px;
     height: auto;
     min-width: 40px; /* 假设最小宽度是50px，根据实际情况调整 */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
