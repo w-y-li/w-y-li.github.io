@@ -99,6 +99,6 @@ Fang Guo\*, **Wenyu Li\***, Honglei Zhuang, Yun Luo, Yafu Li, Qi Zhu, Le Yan, Yu
 -->
 
 # 💻 Internships
-- *2024.05 - present*, Visitor, Supervisor: [Prof. Zhiyuan Liu]{https://nlp.csai.tsinghua.edu.cn/~lzy/}, **Tsinghua University**, Beijing, China.
-- *2023.07 - present*, Visiting Student, Supervisor: [Prof. Yue Zhang]{https://frcchang.github.io/}, **Westlake University**, Hangzhou, China.
+- *2024.05 - present*, Visitor, Supervisor: [Prof. Zhiyuan Liu](https://nlp.csai.tsinghua.edu.cn/~lzy/), **Tsinghua University**, Beijing, China.
+- *2023.07 - present*, Visiting Student, Supervisor: [Prof. Yue Zhang](https://frcchang.github.io/), **Westlake University**, Hangzhou, China.
 - *2019.10 - 2020.11*, Visitor, Mentor: Dr. Yadong Li, **University of Science and Technology of China**, Hefei, China.
