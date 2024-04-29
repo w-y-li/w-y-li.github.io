@@ -104,8 +104,8 @@ Fang Guo\*, **Wenyu Li\***, Honglei Zhuang, Yun Luo, Yafu Li, Qi Zhu, Le Yan, Yu
 - *2019.10 - 2020.11*, Visitor, Mentor: Dr. Yadong Li, **University of Science and Technology of China**, Hefei, China.
 
 # 🩴 My Interesting Life
-- *2023.02*, **I cycled around Hainan Island in nine days, about 850 KM**<br><br><img src="images/cycle.png" alt="" title="" width="500" height=auto/><br><br><br>
-- *2022.10*, **I starred in a drama, which received an overwhelming response and received reports from Guangdong Province**<br><br><img src="images/drama.png" alt="" title="" width="400" height=auto/>
+- *2023.02*, **I cycled around Hainan Island in nine days, about 850 KM**<br><br><img src="images/cycle.png" alt="" title="" width="400" height=auto/><br><br><br>
+- *2022.10*, **I starred in a drama, which received an overwhelming response and received reports from Guangdong Province**<br><br><img src="images/drama.png" alt="" title="" width="300" height=auto/>
 <br><br><br>
 - **I like football and travelling, especially with my girlfriend.**
 <div id="slider" style="width: 800px; overflow: hidden;">
