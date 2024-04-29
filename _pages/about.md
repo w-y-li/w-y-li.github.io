@@ -128,39 +128,54 @@ Fang Guo\*, **Wenyu Li\***, Honglei Zhuang, Yun Luo, Yafu Li, Qi Zhu, Le Yan, Yu
 </div>
 
 <style>
-@keyframes scroll {
-    0% { transform: translateX(0); }
-    100% { transform: translateX(calc(-100% / 14)); } /* 假设有7张不同的图片 */
+#slider {
+    width: 800px;
+    overflow: hidden;
+    position: relative; /* 为了定位伪元素 */
 }
 
-#slider .slider-container img {
+#slider::before,
+#slider::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    width: 100px; /* 渐变的宽度 */
+    height: 100%;
+    z-index: 2;
+    pointer-events: none; /* 确保伪元素不会阻挡鼠标事件 */
+}
+
+#slider::before {
+    left: 0;
+    background: linear-gradient(to right, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0));
+}
+
+#slider::after {
+    right: 0;
+    background: linear-gradient(to left, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0));
+}
+
+#slider > div {
+    display: flex;
+    animation: scroll 10s linear infinite;
+    gap: 10px; /* 图片之间的间隔 */
+}
+
+#slider img {
     max-height: 300px;
     height: auto;
-    margin-right: 10px; /* 图片之间的间隔 */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* 图片阴影 */
-    border: 1px solid #ddd; /* 图片边框 */
-    transition: transform 0.3s ease; /* 平滑变换效果 */
+    display: block; /* 去除图片下方的空隙 */
+    margin: auto 0; /* 垂直居中 */
 }
 
-#slider .slider-container img:hover {
-    transform: scale(1.05); /* 悬停时图片放大 */
-    cursor: pointer;
-    opacity: 1; /* 完全不透明 */
+/* 悬停暂停效果 */
+#slider:hover > div {
+    animation-play-state: paused;
 }
 
-#slider .slider-container:hover {
-    animation-play-state: paused; /* 鼠标悬停时暂停滚动 */
+@keyframes scroll {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(calc(-100% - 140px)); } /* 140px是图片间隔的总宽度 */
 }
-
-.slider-container {
-    display: flex;
-    width: calc(100% * 14); /* 假设有14张图片，其中7张是重复的 */
-}
-
-.slider-container::after {
-    content: "";
-    flex: 0 0 800px; /* 与 #slider 宽度相同，用于平滑循环 */
-}
-</style>
 
 <br><br>
