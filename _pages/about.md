@@ -108,61 +108,69 @@ Fang Guo\*, **Wenyu Li\***, Honglei Zhuang, Yun Luo, Yafu Li, Qi Zhu, Le Yan, Yu
 - *2022.10*, **I starred in a drama, which received an overwhelming response and received reports from Guangdong Province**<br><br><img src="images/drama.png" alt="" title="" width="300" height=auto/>
 <br><br><br>
 - **I like football and travelling, especially with my girlfriend.**
-
 <div id="slider" style="width: 800px; overflow: hidden;">
-    <div id="slider-inner" style="display: flex; animation: scroll 20s linear infinite;">
-        <!-- 重复两次图片以实现无缝滚动 -->
+    <div id="slider-inner" style="display: flex; animation: scroll 30s linear infinite;">
+        <!-- 图片集合 -->
         <!-- 第一组图片 -->
-        <img src="images/1.png" alt="Image 1" style="max-height: 300px; height: auto;">
-        <img src="images/2.png" alt="Image 2" style="max-height: 300px; height: auto;">
-        <img src="images/3.png" alt="Image 3" style="max-height: 300px; height: auto;">
-        <img src="images/4.png" alt="Image 4" style="max-height: 300px; height: auto;">
-        <img src="images/5.png" alt="Image 5" style="max-height: 300px; height: auto;">
-        <img src="images/6.png" alt="Image 6" style="max-height: 300px; height: auto;">
-        <img src="images/7.png" alt="Image 7" style="max-height: 300px; height: auto;">
-        <img src="images/8.png" alt="Image 8" style="max-height: 300px; height: auto;">
-        <img src="images/9.png" alt="Image 9" style="max-height: 300px; height: auto;">
-        <img src="images/10.png" alt="Image 10" style="max-height: 300px; height: auto;">
-        <img src="images/11.png" alt="Image 11" style="max-height: 300px; height: auto;">
-        <img src="images/12.png" alt="Image 12" style="max-height: 300px; height: auto;">
-        <img src="images/13.png" alt="Image 13" style="max-height: 300px; height: auto;">
-        <img src="images/14.png" alt="Image 14" style="max-height: 300px; height: auto;">
-        <!-- 第二组图片 -->
-        <img src="images/1.png" alt="Image 1" style="max-height: 300px; height: auto;">
-        <img src="images/2.png" alt="Image 2" style="max-height: 300px; height: auto;">
-        <img src="images/3.png" alt="Image 3" style="max-height: 300px; height: auto;">
-        <img src="images/4.png" alt="Image 4" style="max-height: 300px; height: auto;">
-        <img src="images/5.png" alt="Image 5" style="max-height: 300px; height: auto;">
-        <img src="images/6.png" alt="Image 6" style="max-height: 300px; height: auto;">
-        <img src="images/7.png" alt="Image 7" style="max-height: 300px; height: auto;">
-        <img src="images/8.png" alt="Image 8" style="max-height: 300px; height: auto;">
-        <img src="images/9.png" alt="Image 9" style="max-height: 300px; height: auto;">
-        <img src="images/10.png" alt="Image 10" style="max-height: 300px; height: auto;">
-        <img src="images/11.png" alt="Image 11" style="max-height: 300px; height: auto;">
-        <img src="images/12.png" alt="Image 12" style="max-height: 300px; height: auto;">
-        <img src="images/13.png" alt="Image 13" style="max-height: 300px; height: auto;">
-        <img src="images/14.png" alt="Image 14" style="max-height: 300px; height: auto;">
+        <img src="images/1.png" alt="Image 1">
+        <img src="images/2.png" alt="Image 2">
+        <img src="images/3.png" alt="Image 3">
+        <img src="images/4.png" alt="Image 4">
+        <img src="images/5.png" alt="Image 5">
+        <img src="images/6.png" alt="Image 6">
+        <img src="images/7.png" alt="Image 7">
+        <img src="images/8.png" alt="Image 8">
+        <img src="images/9.png" alt="Image 9">
+        <img src="images/10.png" alt="Image 10">
+        <img src="images/11.png" alt="Image 11">
+        <img src="images/12.png" alt="Image 12">
+        <img src="images/13.png" alt="Image 13">
+        <img src="images/14.png" alt="Image 14">
+        <!-- 第二组图片（复制的第一组） -->
+        <img src="images/1.png" alt="Image 1">
+        <img src="images/2.png" alt="Image 2">
+        <img src="images/3.png" alt="Image 3">
+        <img src="images/4.png" alt="Image 4">
+        <img src="images/5.png" alt="Image 5">
+        <img src="images/6.png" alt="Image 6">
+        <img src="images/7.png" alt="Image 7">
+        <img src="images/8.png" alt="Image 8">
+        <img src="images/9.png" alt="Image 9">
+        <img src="images/10.png" alt="Image 10">
+        <img src="images/11.png" alt="Image 11">
+        <img src="images/12.png" alt="Image 12">
+        <img src="images/13.png" alt="Image 13">
+        <img src="images/14.png" alt="Image 14">
     </div>
 </div>
+window.onload = function() {
+  var images = document.getElementById('slider-inner').getElementsByTagName('img');
+  var totalWidth = 0;
+  for (var img of images) {
+    totalWidth += img.offsetWidth;
+  }
+  document.documentElement.style.setProperty('--totalWidth', totalWidth + 'px');
+};
 
 <style>
 #slider img {
     max-height: 300px;
     height: auto;
-    width: auto;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* 添加阴影效果 */
-    border: 1px solid #ddd; /* 添加边框 */
-    margin-right: 5px; /* 添加图片之间的间隔 */
+    min-width: 50px; /* 假设最小宽度是50px，根据实际情况调整 */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border: 1px solid #ddd;
+    margin-right: 5px;
+    flex-shrink: 0; /* 防止图片在flex容器中缩小 */
 }
 
 #slider-inner {
     display: flex;
 }
+  
 
 @keyframes scroll {
     0% { transform: translateX(0); }
-    50% { transform: translateX(-50%); } /* 当滚动到一半时，实际上已经是第二组图片的开始 */
-    100% { transform: translateX(-50%); } /* 动画结束时，我们需要回到第二组图片的开始位置 */
+    100% { transform: translateX(calc(-1 * var(--totalWidth))); }
 }
 </style>
 
