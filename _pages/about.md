@@ -105,11 +105,11 @@ Fang Guo\*, **Wenyu Li\***, Honglei Zhuang, Yun Luo, Yafu Li, Qi Zhu, Le Yan, Yu
 
 # 💻 My insteresting Life
 - *2023.02*, **I cycled around Hainan Island in nine days, about 850 KM**<br><img src="images/cycle.png" alt="" title="" width="500" height=auto/><br>
-- *2022.10*, **I starred in a drama, which received an overwhelming response and received reports from Guangdong Province**<br><img src="images/drama.png" alt="" title="" width="500" height=auto/>
+- *2022.10*, **I starred in a drama, which received an overwhelming response and received reports from Guangdong Province**<br><img src="images/drama.png" alt="" title="" width="300" height=auto/>
 
 - **All in all, I am an interesting person, I like football and travelling, especially with my girlfriend.**
 <div id="slider" style="width: 800px; overflow: hidden;">
-    <div style="width: 10000px; display: flex; animation: scroll 40s linear infinite;">
+    <div style="width: 7000px; display: flex; animation: scroll 40s linear infinite;">
         <img src="images/1.png" alt="Image 1" style="width: 500px; height: auto;">
         <img src="images/2.png" alt="Image 2" style="width: 500px; height: auto;">
         <img src="images/3.png" alt="Image 3" style="width: 500px; height: auto;">
@@ -124,12 +124,6 @@ Fang Guo\*, **Wenyu Li\***, Honglei Zhuang, Yun Luo, Yafu Li, Qi Zhu, Le Yan, Yu
         <img src="images/12.png" alt="Image 12" style="width: 500px; height: auto;">
         <img src="images/13.png" alt="Image 13" style="width: 500px; height: auto;">
         <img src="images/14.png" alt="Image 14" style="width: 500px; height: auto;">
-        <img src="images/15.png" alt="Image 15" style="width: 500px; height: auto;">
-        <img src="images/16.png" alt="Image 16" style="width: 500px; height: auto;">
-        <img src="images/17.png" alt="Image 17" style="width: 500px; height: auto;">
-        <img src="images/18.png" alt="Image 18" style="width: 500px; height: auto;">
-        <img src="images/19.png" alt="Image 19" style="width: 500px; height: auto;">
-        <img src="images/20.png" alt="Image 20" style="width: 500px; height: auto;">
     </div>
 </div>
 
