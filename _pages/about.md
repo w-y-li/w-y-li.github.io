@@ -143,6 +143,8 @@ Fang Guo\*, **Wenyu Li\***, Honglei Zhuang, Yun Luo, Yafu Li, Qi Zhu, Le Yan, Yu
         <img src="images/14.png" alt="Image 14">
     </div>
 </div>
+
+<script>
 window.onload = function() {
   var images = document.getElementById('slider-inner').getElementsByTagName('img');
   var totalWidth = 0;
@@ -151,6 +153,7 @@ window.onload = function() {
   }
   document.documentElement.style.setProperty('--totalWidth', totalWidth + 'px');
 };
+</script>
 
 <style>
 #slider img {
