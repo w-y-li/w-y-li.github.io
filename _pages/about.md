@@ -103,13 +103,13 @@ Fang Guo\*, **Wenyu Li\***, Honglei Zhuang, Yun Luo, Yafu Li, Qi Zhu, Le Yan, Yu
 - *2023.07 - present*, Visiting Student, Supervisor: [Prof. Yue Zhang](https://frcchang.github.io/), **Westlake University**, Hangzhou, China.
 - *2019.10 - 2020.11*, Visitor, Mentor: Dr. Yadong Li, **University of Science and Technology of China**, Hefei, China.
 
-# 🩴 My insteresting Life
+# 🩴 My Interesting Life
 - *2023.02*, **I cycled around Hainan Island in nine days, about 850 KM**<br><br><img src="images/cycle.png" alt="" title="" width="500" height=auto/><br><br><br>
 - *2022.10*, **I starred in a drama, which received an overwhelming response and received reports from Guangdong Province**<br><br><img src="images/drama.png" alt="" title="" width="400" height=auto/>
 <br><br><br>
 - **I like football and travelling, especially with my girlfriend.**
 <div id="slider" style="width: 800px; overflow: hidden;">
-    <div id="slider-container" style="display: flex; animation: scroll 30s linear infinite;">
+    <div class="slider-container" style="display: flex; animation: scroll 30s linear infinite;">
         <img src="images/1.png" alt="Image 1" style="max-height: 300px; height: auto;">
         <img src="images/2.png" alt="Image 2" style="max-height: 300px; height: auto;">
         <img src="images/3.png" alt="Image 3" style="max-height: 300px; height: auto;">
@@ -128,27 +128,38 @@ Fang Guo\*, **Wenyu Li\***, Honglei Zhuang, Yun Luo, Yafu Li, Qi Zhu, Le Yan, Yu
 </div>
 
 <style>
-#slider {
-    max-width: 100%; /* 适应屏幕宽度 */
-    margin: auto; /* 居中显示 */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* 添加阴影效果 */
-    border-radius: 10px; /* 边角圆润 */
-    overflow: hidden; /* 隐藏多余部分 */
-}
-
-#slider-container > img {
-    max-height: 300px;
-    width: auto;
-    margin-right: 10px; /* 图片间隙 */
-}
-
-#slider-container:hover {
-    animation-play-state: paused; /* 悬停时暂停动画 */
-}
-
 @keyframes scroll {
     0% { transform: translateX(0); }
-    100% { transform: translateX(calc(-100% + 800px)); } /* 调整动画结束位置 */
+    100% { transform: translateX(calc(-100% / 14)); } /* 假设有7张不同的图片 */
+}
+
+#slider .slider-container img {
+    max-height: 300px;
+    height: auto;
+    margin-right: 10px; /* 图片之间的间隔 */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* 图片阴影 */
+    border: 1px solid #ddd; /* 图片边框 */
+    transition: transform 0.3s ease; /* 平滑变换效果 */
+}
+
+#slider .slider-container img:hover {
+    transform: scale(1.05); /* 悬停时图片放大 */
+    cursor: pointer;
+    opacity: 1; /* 完全不透明 */
+}
+
+#slider .slider-container:hover {
+    animation-play-state: paused; /* 鼠标悬停时暂停滚动 */
+}
+
+.slider-container {
+    display: flex;
+    width: calc(100% * 14 / 7); /* 假设有14张图片，其中7张是重复的 */
+}
+
+.slider-container::after {
+    content: "";
+    flex: 0 0 800px; /* 与 #slider 宽度相同，用于平滑循环 */
 }
 </style>
 
