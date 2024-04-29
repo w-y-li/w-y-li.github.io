@@ -109,21 +109,46 @@ Fang Guo\*, **Wenyu Li\***, Honglei Zhuang, Yun Luo, Yafu Li, Qi Zhu, Le Yan, Yu
 <br><br><br>
 - **I like football and travelling, especially with my girlfriend.**
 <div id="slider" style="width: 800px; overflow: hidden;">
-    <div style="display: flex; animation: scroll 40s linear infinite;">
+    <div id="slider-container" style="display: flex; animation: scroll 30s linear infinite;">
         <img src="images/1.png" alt="Image 1" style="max-height: 300px; height: auto;">
         <img src="images/2.png" alt="Image 2" style="max-height: 300px; height: auto;">
         <img src="images/3.png" alt="Image 3" style="max-height: 300px; height: auto;">
         <img src="images/4.png" alt="Image 1" style="max-height: 300px; height: auto;">
         <img src="images/5.png" alt="Image 2" style="max-height: 300px; height: auto;">
         <img src="images/6.png" alt="Image 3" style="max-height: 300px; height: auto;">
+        <img src="images/7.png" alt="Image 14" style="max-height: 300px; height: auto;">
+        <img src="images/8.png" alt="Image 1" style="max-height: 300px; height: auto;">
+        <img src="images/9.png" alt="Image 2" style="max-height: 300px; height: auto;">
+        <img src="images/10.png" alt="Image 3" style="max-height: 300px; height: auto;">
+        <img src="images/11.png" alt="Image 1" style="max-height: 300px; height: auto;">
+        <img src="images/12.png" alt="Image 2" style="max-height: 300px; height: auto;">
+        <img src="images/13.png" alt="Image 3" style="max-height: 300px; height: auto;">
         <img src="images/14.png" alt="Image 14" style="max-height: 300px; height: auto;">
     </div>
 </div>
 
 <style>
+#slider {
+    max-width: 100%; /* 适应屏幕宽度 */
+    margin: auto; /* 居中显示 */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* 添加阴影效果 */
+    border-radius: 10px; /* 边角圆润 */
+    overflow: hidden; /* 隐藏多余部分 */
+}
+
+#slider-container > img {
+    max-height: 300px;
+    width: auto;
+    margin-right: 10px; /* 图片间隙 */
+}
+
+#slider-container:hover {
+    animation-play-state: paused; /* 悬停时暂停动画 */
+}
+
 @keyframes scroll {
     0% { transform: translateX(0); }
-    100% { transform: translateX(-100%); }
+    100% { transform: translateX(calc(-100% + 800px)); } /* 调整动画结束位置 */
 }
 </style>
 
