@@ -109,7 +109,7 @@ Fang Guo\*, **Wenyu Li\***, Honglei Zhuang, Yun Luo, Yafu Li, Qi Zhu, Le Yan, Yu
 <br><br><br>
 - **I like football and travelling, especially with my girlfriend.**
 <div id="slider" style="width: 800px; overflow: hidden;">
-    <div class="slider-container" style="display: flex; animation: scroll 30s linear infinite;">
+    <div class="slider-container" style="display: flex; animation: scroll 10s linear infinite;">
         <img src="images/1.png" alt="Image 1" style="max-height: 300px; height: auto;">
         <img src="images/2.png" alt="Image 2" style="max-height: 300px; height: auto;">
         <img src="images/3.png" alt="Image 3" style="max-height: 300px; height: auto;">
@@ -154,7 +154,7 @@ Fang Guo\*, **Wenyu Li\***, Honglei Zhuang, Yun Luo, Yafu Li, Qi Zhu, Le Yan, Yu
 
 .slider-container {
     display: flex;
-    width: calc(100% * 14 / 7); /* 假设有14张图片，其中7张是重复的 */
+    width: calc(100% * 14); /* 假设有14张图片，其中7张是重复的 */
 }
 
 .slider-container::after {
