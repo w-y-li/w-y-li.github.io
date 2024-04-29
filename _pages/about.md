@@ -17,7 +17,9 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-Welcome to my personal website! I am Wenyu Li, you can also call me Wind. I am now a third year undergraduate of South China University of Technology and also a visiting student at Prof. Yue Zhang's lab in Westlake University, Hangzhou, China.
+**Welcome to my personal website!**
+
+I am Wenyu Li, you can also call me Wind. I am now a third year undergraduate of South China University of Technology and also a visiting student at Prof. Yue Zhang's lab in Westlake University, Hangzhou, China.
 
 My prior research has focused on information retrieval, text understanding, and applying advanced NLP techniques in interdisciplinary areas. In particular, I have been working on zero-shot text ranking, complex query-based summarization, and social media mental health analysis. 
 
@@ -28,13 +30,13 @@ As I continue to delve into the realm of LLMs, I would love to continue my resea
 # 🔥 News
 - *2024.05*: &nbsp;🎉🎉 I will start a new journey visiting Prof. Zhiyuan Liu at Tsinghua University!
 - *2024.04*: &nbsp;🎉🎉 Our paper *Generating Diverse Criteria On-the-Fly to Improve Pointwise LLM Rankers* has been put on [Arxiv](https://arxiv.org/abs/2404.11960), welcome to have a look!
-- *2024.03*: &nbsp;🎉🎉 My first paper *Zero-shot Explainable Mental Health Analysis on Social Media by Incorporating Mental Scales* has been  as Short Paper, <span style="color:red;">accepted by The Web Conference (WWW) 2024</span>CONGRATULATIONS!
+- *2024.03*: &nbsp;🎉🎉 My first paper *Zero-shot Explainable Mental Health Analysis on Social Media by Incorporating Mental Scales* has been  as Short Paper, <span style="color:red;">accepted by The Web Conference (WWW) 2024</span>!
 - *2023.07*: &nbsp;🎉🎉 I will start visiting Prof. Yue Zhang's lab at Westlake University!
 - *2023.06*: &nbsp;🎉🎉 I have been granted my first China patent!
 - *2023.05*: &nbsp;🎉🎉 Our project *Design of a Depression Risk Assessment System Based on Psychological Scales and AIGC Large Models* secured a National Project Approval under the China College Students' Innovation and Entrepreneurship Training Program!
-- *2023.03*: &nbsp;🎉🎉 Get the Future Innovation Award of Future Technology Taihu Innovation Award <span style="color:red;">(Top 3%)</span> !
-- *2023.03*: &nbsp;🎉🎉 Get the First class Science and Technology Innovation Award of Future Technology Taihu Innovation Award <span style="color:red;">(Top 3%)</span> !
-- *2023.01*: &nbsp;🎉🎉 Get the First Prize of Asia and Pacific Mathematical Contest in Modeling (APMCM) <span style="color:red;">(Top 5%)</span> !
+- *2023.03*: &nbsp;🎉🎉 Get the Future Innovation Award of Future Technology Taihu Innovation Award <span style="color:red;">(Top 3%)</span>!
+- *2023.03*: &nbsp;🎉🎉 Get the First class Science and Technology Innovation Award of Future Technology Taihu Innovation Award <span style="color:red;">(Top 3%)</span>!
+- *2023.01*: &nbsp;🎉🎉 Get the First Prize of Asia and Pacific Mathematical Contest in Modeling (APMCM) <span style="color:red;">(Top 5%)</span>!
 
 # 📝 Publications 
 
@@ -63,14 +65,10 @@ Fang Guo\*, **Wenyu Li\***, Honglei Zhuang, Yun Luo, Yafu Li, Qi Zhu, Le Yan, Yu
 </div>
 </div>
 
-Depression Risk Assessment Method and System Based on Psychological Scales and AIGC Large Models, China patent, Application Number: 2024103834530 (Under review)
-
-**Wenyu Li**, Ming Li, Yinuo Zhu, Xin Lin, Jinghao You, Ziyue Jiang
+- Depression Risk Assessment Method and System Based on Psychological Scales and AIGC Large Models, China patent, Application Number: 2024103834530 (Under review)<br>**Wenyu Li**, Ming Li, Yinuo Zhu, Xin Lin, Jinghao You, Ziyue Jiang
 <br><br>
 
-[Wearable device based on arm somatosensory interaction technology](https://patents.google.com/patent/CN110413126B/en?oq=CN110%2c413%2c126+B), China Patent, CN110413126B
-
-**Wenyu Li**
+- [Wearable device based on arm somatosensory interaction technology](https://patents.google.com/patent/CN110413126B/en?oq=CN110%2c413%2c126+B), China Patent, CN110413126B<br>**Wenyu Li**
 
 
 # 🎖 Honors and Awards
