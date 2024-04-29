@@ -110,6 +110,29 @@ Fang Guo\*, **Wenyu Li\***, Honglei Zhuang, Yun Luo, Yafu Li, Qi Zhu, Le Yan, Yu
 - **I like football and travelling, especially with my girlfriend.**
 <div id="slider" style="width: 800px; overflow: hidden;">
     <div class="slider-container" style="display: flex; animation: scroll 10s linear infinite;">
+
+    </div>
+</div>
+
+<div id="slider" style="width: 800px; overflow: hidden;">
+    <div id="slider-inner" style="display: flex; animation: scroll 20s linear infinite;">
+        <!-- 重复两次图片以实现无缝滚动 -->
+        <!-- 第一组图片 -->
+        <img src="images/1.png" alt="Image 1" style="max-height: 300px; height: auto;">
+        <img src="images/2.png" alt="Image 2" style="max-height: 300px; height: auto;">
+        <img src="images/3.png" alt="Image 3" style="max-height: 300px; height: auto;">
+        <img src="images/4.png" alt="Image 1" style="max-height: 300px; height: auto;">
+        <img src="images/5.png" alt="Image 2" style="max-height: 300px; height: auto;">
+        <img src="images/6.png" alt="Image 3" style="max-height: 300px; height: auto;">
+        <img src="images/7.png" alt="Image 14" style="max-height: 300px; height: auto;">
+        <img src="images/8.png" alt="Image 1" style="max-height: 300px; height: auto;">
+        <img src="images/9.png" alt="Image 2" style="max-height: 300px; height: auto;">
+        <img src="images/10.png" alt="Image 3" style="max-height: 300px; height: auto;">
+        <img src="images/11.png" alt="Image 1" style="max-height: 300px; height: auto;">
+        <img src="images/12.png" alt="Image 2" style="max-height: 300px; height: auto;">
+        <img src="images/13.png" alt="Image 3" style="max-height: 300px; height: auto;">
+        <img src="images/14.png" alt="Image 14" style="max-height: 300px; height: auto;">
+        <!-- 第二组图片 -->
         <img src="images/1.png" alt="Image 1" style="max-height: 300px; height: auto;">
         <img src="images/2.png" alt="Image 2" style="max-height: 300px; height: auto;">
         <img src="images/3.png" alt="Image 3" style="max-height: 300px; height: auto;">
@@ -128,54 +151,24 @@ Fang Guo\*, **Wenyu Li\***, Honglei Zhuang, Yun Luo, Yafu Li, Qi Zhu, Le Yan, Yu
 </div>
 
 <style>
-#slider {
-    width: 800px;
-    overflow: hidden;
-    position: relative; /* 为了定位伪元素 */
-}
-
-#slider::before,
-#slider::after {
-    content: '';
-    position: absolute;
-    top: 0;
-    width: 100px; /* 渐变的宽度 */
-    height: 100%;
-    z-index: 2;
-    pointer-events: none; /* 确保伪元素不会阻挡鼠标事件 */
-}
-
-#slider::before {
-    left: 0;
-    background: linear-gradient(to right, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0));
-}
-
-#slider::after {
-    right: 0;
-    background: linear-gradient(to left, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0));
-}
-
-#slider > div {
-    display: flex;
-    animation: scroll 10s linear infinite;
-    gap: 10px; /* 图片之间的间隔 */
-}
-
 #slider img {
     max-height: 300px;
     height: auto;
-    display: block; /* 去除图片下方的空隙 */
-    margin: auto 0; /* 垂直居中 */
+    width: auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* 添加阴影效果 */
+    border: 1px solid #ddd; /* 添加边框 */
+    margin-right: 5px; /* 添加图片之间的间隔 */
 }
 
-/* 悬停暂停效果 */
-#slider:hover > div {
-    animation-play-state: paused;
+#slider-inner {
+    display: flex;
 }
 
 @keyframes scroll {
     0% { transform: translateX(0); }
-    100% { transform: translateX(calc(-100% - 140px)); } /* 140px是图片间隔的总宽度 */
+    50% { transform: translateX(-50%); } /* 当滚动到一半时，实际上已经是第二组图片的开始 */
+    100% { transform: translateX(-50%); } /* 动画结束时，我们需要回到第二组图片的开始位置 */
 }
+</style>
 
 <br><br>
