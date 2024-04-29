@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "Wenyu Li"
-description              : "I'm a third year undergraduate student at South China University of Technology"
+description              : "2021 - present"
 repository               : "w-y-li/w-y-li.github.io"
 google_scholar_stats_use_cdn : true
 
@@ -45,7 +45,7 @@ author:
   lastfm           :
   linkedin         : # e.g., "linkedin username"
   dblp             : # e.g., "https://dblp.org/pid/xx/xxxx.html"
-  orcid            : https://orcid.org/0009-0009-2792-4303# e.g., "https://orcid.org/xxxx"
+  orcid            : https://orcid.org/0009-0009-2792-4303 # e.g., "https://orcid.org/xxxx"
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
