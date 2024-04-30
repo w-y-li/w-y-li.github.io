@@ -108,73 +108,24 @@ Fang Guo\*, **Wenyu Li\***, Honglei Zhuang, Yun Luo, Yafu Li, Qi Zhu, Le Yan, Yu
 - *2022.10*, **I starred in a drama, which received an overwhelming response and received reports from Guangdong Province**<br><br><img src="images/drama.png" alt="" title="" width="250" height=auto/>
 <br><br><br>
 - **I like football and travelling, especially with my girlfriend.**
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Image Slider</title>
-<style>
-#slider {
-    width: 1000px;
-    overflow: hidden;
-    margin: 50px auto;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
-    border-radius: 10px;
-}
-
-#slider-inner {
-    display: flex;
-    will-change: transform; /* 提高动画性能 */
-    cursor: pointer; /* 提示用户可以点击 */
-}
-
-#slider img {
-    max-height: 280px;
-    width: auto;
-    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
-    border: 3px solid white;
-    margin: 0 5px;
-    border-radius: 5px;
-    flex-shrink: 0;
-    transition: transform 0.3s ease, box-shadow 0.3s ease; /* 平滑的过渡效果 */
-}
-
-#slider img:hover {
-    transform: scale(1.05); /* 鼠标悬停时放大 */
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
-}
-
-@keyframes scroll {
-    0% { transform: translateX(0); }
-    100% { transform: translateX(calc(-1 * var(--totalWidth))); }
-}
-
-/* 添加导航点 */
-#slider-nav {
-    text-align: center;
-    margin-top: 10px;
-}
-
-#slider-nav span {
-    display: inline-block;
-    width: 15px;
-    height: 15px;
-    background: #ddd;
-    margin: 0 5px;
-    border-radius: 50%;
-    cursor: pointer;
-}
-
-#slider-nav span.active {
-    background: #333;
-}
-</style>
-</head>
-<body>
-
-<div id="slider">
-    <div id="slider-inner">
+<div id="slider" style="width: 1000px; overflow: hidden;">
+    <div id="slider-inner" style="display: flex; animation: scroll 100s linear infinite;">
+        <!-- 图片集合 -->
+        <!-- 第一组图片 -->
+        <img src="images/1.png" alt="Image 1">
+        <img src="images/2.png" alt="Image 2">
+        <img src="images/3.png" alt="Image 3">
+        <img src="images/4.png" alt="Image 4">
+        <img src="images/5.png" alt="Image 5">
+        <img src="images/6.png" alt="Image 6">
+        <img src="images/7.png" alt="Image 7">
+        <img src="images/8.png" alt="Image 8">
+        <img src="images/9.png" alt="Image 9">
+        <img src="images/10.png" alt="Image 10">
+        <img src="images/11.png" alt="Image 11">
+        <img src="images/12.png" alt="Image 12">
+        <img src="images/14.png" alt="Image 14">
+        <!-- 第二组图片（复制的第一组） -->
         <img src="images/1.png" alt="Image 1">
         <img src="images/2.png" alt="Image 2">
         <img src="images/3.png" alt="Image 3">
@@ -191,68 +142,37 @@ Fang Guo\*, **Wenyu Li\***, Honglei Zhuang, Yun Luo, Yafu Li, Qi Zhu, Le Yan, Yu
     </div>
 </div>
 
-<div id="slider-nav"></div> <!-- 导航点容器 -->
-
 <script>
 window.onload = function() {
-    var slider = document.getElementById('slider');
-    var inner = document.getElementById('slider-inner');
-    var images = inner.getElementsByTagName('img');
-    var nav = document.getElementById('slider-nav');
-    var totalWidth = 0;
-    var currentIndex = 0;
-
-    for (var img of images) {
-        totalWidth += img.offsetWidth + 10; // 加上margin的宽度
-        var dot = document.createElement('span');
-        nav.appendChild(dot);
-    }
-
-    var dots = nav.children;
-    dots[currentIndex].classList.add('active');
-
-    document.documentElement.style.setProperty('--totalWidth', totalWidth + 'px');
-
-    // 动画
-    var animation = inner.animate([
-        { transform: 'translateX(0)' },
-        { transform: 'translateX(' + (-totalWidth / 2) + 'px)' }
-    ], {
-        duration: 90000,
-        iterations: Infinity
-    });
-
-    // 悬停暂停动画
-    slider.addEventListener('mouseenter', function() {
-        animation.pause();
-        updateDots(currentIndex);
-    });
-
-    slider.addEventListener('mouseleave', function() {
-        animation.play();
-        updateDots(currentIndex);
-    });
-
-    function updateDots(index) {
-        for (var dot of dots) {
-            dot.classList.remove('active');
-        }
-        dots[index].classList.add('active');
-    }
-
-    // 点击导航点切换图片
-    for (let i = 0; i < dots.length; i++) {
-        dots[i].addEventListener('click', function() {
-            currentIndex = i;
-            var offset = (totalWidth / images.length) * currentIndex;
-            inner.style.transform = 'translateX(' + (-offset) + 'px)';
-            updateDots(currentIndex);
-        });
-    }
+  var images = document.getElementById('slider-inner').getElementsByTagName('img');
+  var totalWidth = 0;
+  for (var img of images) {
+    totalWidth += img.offsetWidth;
+  }
+  document.documentElement.style.setProperty('--totalWidth', totalWidth + 'px');
 };
 </script>
 
-</body>
-</html>
+<style>
+#slider img {
+    max-height: 280px;
+    height: auto;
+    min-width: 40px; /* 假设最小宽度是50px，根据实际情况调整 */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border: 1px solid #ddd;
+    margin-right: 5px;
+    flex-shrink: 0; /* 防止图片在flex容器中缩小 */
+}
+
+#slider-inner {
+    display: flex;
+}
+  
+
+@keyframes scroll {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(calc(-1 * var(--totalWidth))); }
+}
+</style>
 
 <br><br>
