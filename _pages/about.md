@@ -108,9 +108,11 @@ Fang Guo\*, **Wenyu Li\***, Honglei Zhuang, Yun Luo, Yafu Li, Qi Zhu, Le Yan, Yu
 - *2022.10*, **I starred in a drama, which received an overwhelming response and received reports from Guangdong Province**<br><br><img src="images/drama.png" alt="" title="" width="250" height=auto/>
 <br><br><br>
 - **I like football and travelling, especially with my girlfriend.**
-<div id="slider" style="width: 100%; max-width: 1000px; overflow: hidden; margin: auto;">
-    <div id="slider-inner">
-        <img src="images/1.png" alt="Image 2">
+<div id="slider" style="width: 1000px; overflow: hidden;">
+    <div id="slider-inner" style="display: flex; animation: scroll 100s linear infinite;">
+        <!-- 图片集合 -->
+        <!-- 第一组图片 -->
+        <img src="images/1.png" alt="Image 1">
         <img src="images/2.png" alt="Image 2">
         <img src="images/3.png" alt="Image 3">
         <img src="images/4.png" alt="Image 4">
@@ -140,37 +142,33 @@ Fang Guo\*, **Wenyu Li\***, Honglei Zhuang, Yun Luo, Yafu Li, Qi Zhu, Le Yan, Yu
     </div>
 </div>
 
-
 <script>
 window.onload = function() {
-    var images = document.getElementById('slider-inner').getElementsByTagName('img');
-    var totalWidth = 0;
-    for (var img of images) {
-        // 确保图片加载后再计算宽度
-        img.onload = function() {
-            totalWidth += this.offsetWidth;
-            document.documentElement.style.setProperty('--totalWidth', totalWidth + 'px');
-        }
-    }
+  var images = document.getElementById('slider-inner').getElementsByTagName('img');
+  var totalWidth = 0;
+  for (var img of images) {
+    totalWidth += img.offsetWidth;
+  }
+  document.documentElement.style.setProperty('--totalWidth', totalWidth + 'px');
 };
 </script>
 
 <style>
 #slider img {
-    transition: transform 0.3s ease, opacity 0.3s ease; /* 平滑过渡效果 */
-    opacity: 0.9; /* 透明度 */
     max-height: 280px;
     height: auto;
-    min-width: 100px; /* 调整最小宽度 */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* 优化阴影 */
+    min-width: 100px; /* 根据实际情况调整 */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     border: 1px solid #ddd;
-    margin-right: 10px; /* 优化间距 */
+    margin-right: 10px; /* 增加间距 */
+    border-radius: 10px; /* 圆角边框 */
     flex-shrink: 0;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* 平滑的过渡效果 */
 }
 
 #slider-inner {
     display: flex;
-    will-change: transform; /* 提高动画性能 */
+    align-items: center; /* 垂直居中 */
 }
 
 @keyframes scroll {
@@ -178,17 +176,23 @@ window.onload = function() {
     100% { transform: translateX(calc(-1 * var(--totalWidth))); }
 }
 
-/* 添加缓动效果 */
-#slider-inner {
-    animation: scroll 100s linear infinite;
+#slider img:hover {
+    transform: scale(1.05); /* 鼠标悬停时放大 */
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2); /* 鼠标悬停时增加阴影 */
 }
 
-/* 响应式设计，根据屏幕尺寸调整图片显示 */
-@media (max-width: 768px) {
-    #slider img {
-        min-width: 80px;
-        max-height: 200px;
-    }
+/* 如果图片未加载，显示一个简单的加载动画 */
+#slider img:not([src]), 
+#slider img:empty {
+    min-width: 100px;
+    background: linear-gradient(130deg, #e6e9f0 0%, #eef1f5 50%, #e6e9f0 100%);
+    background-size: 200% 100%;
+    animation: loadingAnimation 1s infinite;
+}
+
+@keyframes loadingAnimation {
+    0% { background-position: 100% 0; }
+    100% { background-position: 0 0; }
 }
 </style>
 
