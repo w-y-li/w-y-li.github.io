@@ -108,11 +108,9 @@ Fang Guo\*, **Wenyu Li\***, Honglei Zhuang, Yun Luo, Yafu Li, Qi Zhu, Le Yan, Yu
 - *2022.10*, **I starred in a drama, which received an overwhelming response and received reports from Guangdong Province**<br><br><img src="images/drama.png" alt="" title="" width="250" height=auto/>
 <br><br><br>
 - **I like football and travelling, especially with my girlfriend.**
-<div id="slider" style="width: 1000px; overflow: hidden;">
-    <div id="slider-inner" style="display: flex; animation: scroll 100s linear infinite;">
-        <!-- 图片集合 -->
-        <!-- 第一组图片 -->
-        <img src="images/1.png" alt="Image 1">
+<div id="slider" style="width: 100%; max-width: 1000px; overflow: hidden; margin: auto;">
+    <div id="slider-inner">
+<img src="images/1.png" alt="Image 1">
         <img src="images/2.png" alt="Image 2">
         <img src="images/3.png" alt="Image 3">
         <img src="images/4.png" alt="Image 4">
@@ -144,34 +142,47 @@ Fang Guo\*, **Wenyu Li\***, Honglei Zhuang, Yun Luo, Yafu Li, Qi Zhu, Le Yan, Yu
 
 <script>
 window.onload = function() {
-  var images = document.getElementById('slider-inner').getElementsByTagName('img');
-  var totalWidth = 0;
-  for (var img of images) {
-    totalWidth += img.offsetWidth;
-  }
-  document.documentElement.style.setProperty('--totalWidth', totalWidth + 'px');
+    var images = document.getElementById('slider-inner').getElementsByTagName('img');
+    var totalWidth = 0;
+    for (var img of images) {
+        totalWidth += img.offsetWidth;
+    }
+    document.documentElement.style.setProperty('--totalWidth', totalWidth + 'px');
 };
+
+// Pause the animation on hover
+document.getElementById('slider').addEventListener('mouseover', function() {
+    document.getElementById('slider-inner').style.animationPlayState = 'paused';
+});
+
+document.getElementById('slider').addEventListener('mouseout', function() {
+    document.getElementById('slider-inner').style.animationPlayState = 'running';
+});
 </script>
 
 <style>
 #slider img {
     max-height: 280px;
-    height: auto;
-    min-width: 40px; /* 假设最小宽度是50px，根据实际情况调整 */
+    width: auto;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     border: 1px solid #ddd;
     margin-right: 5px;
-    flex-shrink: 0; /* 防止图片在flex容器中缩小 */
+    flex-shrink: 0;
 }
 
 #slider-inner {
     display: flex;
+    animation: scroll 100s ease-in-out infinite;
 }
-  
 
 @keyframes scroll {
     0% { transform: translateX(0); }
     100% { transform: translateX(calc(-1 * var(--totalWidth))); }
+}
+
+/* Pause the animation when hovering */
+#slider:hover #slider-inner {
+    animation-play-state: paused;
 }
 </style>
 
