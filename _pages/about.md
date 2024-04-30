@@ -177,7 +177,7 @@ window.onload = function() {
 }
 
 #slider img:hover {
-    transform: scale(1.05); /* 鼠标悬停时放大 */
+    transform: scale(1.20); /* 鼠标悬停时放大 */
     box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2); /* 鼠标悬停时增加阴影 */
 }
 
