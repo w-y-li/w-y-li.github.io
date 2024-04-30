@@ -172,7 +172,7 @@ document.getElementById('slider').addEventListener('mouseout', function() {
 
 #slider-inner {
     display: flex;
-    animation: scroll 100s ease-in-out infinite;
+    animation: scroll 80s ease-in-out infinite;
 }
 
 @keyframes scroll {
