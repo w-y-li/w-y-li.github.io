@@ -110,8 +110,7 @@ Fang Guo\*, **Wenyu Li\***, Honglei Zhuang, Yun Luo, Yafu Li, Qi Zhu, Le Yan, Yu
 - **I like football and travelling, especially with my girlfriend.**
 <div id="slider" style="width: 100%; max-width: 1000px; overflow: hidden; margin: auto;">
     <div id="slider-inner">
-<img src="images/1.png" alt="Image 1">
-        <img src="images/2.png" alt="Image 2">
+<img src="images/2.png" alt="Image 2">
         <img src="images/3.png" alt="Image 3">
         <img src="images/4.png" alt="Image 4">
         <img src="images/5.png" alt="Image 5">
@@ -142,25 +141,21 @@ Fang Guo\*, **Wenyu Li\***, Honglei Zhuang, Yun Luo, Yafu Li, Qi Zhu, Le Yan, Yu
 
 <script>
 window.onload = function() {
-    var images = document.getElementById('slider-inner').getElementsByTagName('img');
-    var totalWidth = 0;
-    for (var img of images) {
-        totalWidth += img.offsetWidth;
-    }
-    document.documentElement.style.setProperty('--totalWidth', totalWidth + 'px');
+  var images = document.getElementById('slider-inner').getElementsByTagName('img');
+  var totalWidth = 0;
+  for (var img of images) {
+    totalWidth += img.offsetWidth;
+  }
+  document.documentElement.style.setProperty('--totalWidth', totalWidth + 'px');
 };
-
-// Pause the animation on hover
-document.getElementById('slider').addEventListener('mouseover', function() {
-    document.getElementById('slider-inner').style.animationPlayState = 'paused';
-});
-
-document.getElementById('slider').addEventListener('mouseout', function() {
-    document.getElementById('slider-inner').style.animationPlayState = 'running';
-});
 </script>
 
 <style>
+#slider {
+    position: relative;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* 添加轮播的阴影效果 */
+}
+
 #slider img {
     max-height: 280px;
     width: auto;
@@ -168,11 +163,18 @@ document.getElementById('slider').addEventListener('mouseout', function() {
     border: 1px solid #ddd;
     margin-right: 5px;
     flex-shrink: 0;
+    transition: transform 0.3s ease; /* 平滑的放大效果 */
 }
 
 #slider-inner {
     display: flex;
-    animation: scroll 80s ease-in-out infinite;
+    will-change: transform; /* 提高性能 */
+}
+
+#slider img:hover {
+    transform: scale(1.05); /* 鼠标悬停时图片放大 */
+    z-index: 10;
+    cursor: pointer;
 }
 
 @keyframes scroll {
@@ -180,9 +182,29 @@ document.getElementById('slider').addEventListener('mouseout', function() {
     100% { transform: translateX(calc(-1 * var(--totalWidth))); }
 }
 
-/* Pause the animation when hovering */
-#slider:hover #slider-inner {
-    animation-play-state: paused;
+#slider-inner:hover {
+    animation-play-state: paused; /* 鼠标悬停时暂停动画 */
+}
+
+/* 添加一个渐变的遮罩，让图片在两端淡出 */
+#slider:before, #slider:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    width: 100px; /* 渐变宽度 */
+    height: 100%;
+    pointer-events: none;
+    z-index: 15;
+}
+
+#slider:before {
+    left: 0;
+    background: linear-gradient(to right, rgba(255,255,255,1), rgba(255,255,255,0));
+}
+
+#slider:after {
+    right: 0;
+    background: linear-gradient(to left, rgba(255,255,255,1), rgba(255,255,255,0));
 }
 </style>
 
