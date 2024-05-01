@@ -19,7 +19,7 @@ redirect_from:
 
 Welcome to my personal website!
 
-I am Wenyu Li, you can also call me Wind. I am now a third year undergraduate of South China University of Technology at Guangzhou, China, and you can find my CV [here]('/WenyuLi_CV.pdf').
+I am Wenyu Li, you can also call me Wind. I am now a third year undergraduate of South China University of Technology at Guangzhou, China, and you can find my CV [here](/WenyuLi_CV.pdf).
 
 My research has primarily centered on information retrieval and text comprehension, leveraging advanced NLP techniques to bridge interdisciplinary domains. As I deepen my exploration of Large Language Models (LLMs), my goal is to expand my research to encompass a broader spectrum of LLM applications, moving beyond the realms of information understanding and retrieval. 
 
@@ -116,7 +116,7 @@ Fang Guo\*, **Wenyu Li\***, Honglei Zhuang, Yun Luo, Yafu Li, Qi Zhu, Le Yan, Yu
 
 - *2022.10*, **I starred in a drama, which received an overwhelming response and received reports from Guangdong Province**<br>
 <div style="display:flex; justify-content:space-around; align-items:flex-start; flex-wrap:wrap;">
-  <img src="images/drama1.png" alt="Starring in a drama" title="Starring in a drama" width="465"/>
+  <img src="images/drama1.png" alt="Starring in a drama" title="Starring in a drama" width="450"/>
   <img src="images/drama2.png" alt="Starring in a drama" title="Starring in a drama" width="200"/>
 </div>
 <br>
