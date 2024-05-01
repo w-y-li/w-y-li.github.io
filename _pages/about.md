@@ -127,6 +127,7 @@ Fang Guo\*, **Wenyu Li\***, Honglei Zhuang, Yun Luo, Yafu Li, Qi Zhu, Le Yan, Yu
 </div>
 
 <script>
+var slider = document.getElementById('slider');
 var sliderInner = document.getElementById('slider-inner');
 var images = sliderInner.getElementsByTagName('img');
 var totalWidth = 0;
@@ -145,13 +146,16 @@ function calculateTotalWidth() {
 function updateAnimation() {
     var maxScroll = totalWidth - slider.offsetWidth;
     if (currentOffset < maxScroll) {
-        currentOffset += 2; // 滚动速度
+        currentOffset += 1; // 滚动速度
         sliderInner.style.transform = 'translateX(-' + currentOffset + 'px)';
         animationFrame = requestAnimationFrame(updateAnimation);
     } else {
-        // 重置滚动位置
-        currentOffset = 0;
+        // 将第一个图片复制到最后，然后重置滚动位置
+        var firstImg = sliderInner.removeChild(images[0]);
+        sliderInner.appendChild(firstImg);
+        calculateTotalWidth(); // 重新计算总宽度
         sliderInner.style.transform = 'translateX(0)';
+        currentOffset = 0;
         // 重新开始动画
         animationFrame = requestAnimationFrame(updateAnimation);
     }
