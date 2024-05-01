@@ -104,11 +104,11 @@ Fang Guo\*, **Wenyu Li\***, Honglei Zhuang, Yun Luo, Yafu Li, Qi Zhu, Le Yan, Yu
 - *2019.10 - 2020.11*, Visitor, Mentor: Dr. Yadong Li, **University of Science and Technology of China**, Hefei, China.
 
 # 🩴 My Interesting Life
-- *2023.02*, **I cycled around Hainan Island in nine days, about 850 KM**<br><br><img src="images/cycle1.png" alt="" title="" width="350" height=auto/><img src="images/cycle2.png" alt="" title="" width="350" height=auto/><br><br><br>
-- *2022.10*, **I starred in a drama, which received an overwhelming response and received reports from Guangdong Province**<br><br><img src="images/drama1.png" alt="" title="" width="350" height=auto/><img src="images/drama2.png" alt="" title="" width="250" height=auto/>
+- *2023.02*, **I cycled around Hainan Island in nine days, about 850 KM**<br><br><img src="images/cycle1.png" alt="" title="" width="400" height=auto/>  <img src="images/cycle2.png" alt="" title="" width="400" height=auto/><br><br><br>
+- *2022.10*, **I starred in a drama, which received an overwhelming response and received reports from Guangdong Province**<br><br><img src="images/drama1.png" alt="" title="" width="500" height=auto/>  <img src="images/drama2.png" alt="" title="" width="250" height=auto/>
 <br><br><br>
 - **I like football and travelling, especially with my girlfriend.**
-<div id="slider" style="width: 1000px; overflow: hidden;">
+<div id="slider" style="width: 900px; overflow: hidden;">
     <div id="slider-inner" style="display: flex; animation: scroll 100s linear infinite;">
         <!-- 图片集合 -->
         <!-- 第一组图片 -->
