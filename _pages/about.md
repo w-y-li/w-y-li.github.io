@@ -104,8 +104,8 @@ Fang Guo\*, **Wenyu Li\***, Honglei Zhuang, Yun Luo, Yafu Li, Qi Zhu, Le Yan, Yu
 - *2019.10 - 2020.11*, Visitor, Mentor: Dr. Yadong Li, **University of Science and Technology of China**, Hefei, China.
 
 # 🩴 My Interesting Life
-- *2023.02*, **I cycled around Hainan Island in nine days, about 850 KM**<br><br><img src="images/cycle.png" alt="" title="" width="350" height=auto/><br><br><br>
-- *2022.10*, **I starred in a drama, which received an overwhelming response and received reports from Guangdong Province**<br><br><img src="images/drama.png" alt="" title="" width="250" height=auto/>
+- *2023.02*, **I cycled around Hainan Island in nine days, about 850 KM**<br><br><img src="images/cycle1.png" alt="" title="" width="350" height=auto/><img src="images/cycle2.png" alt="" title="" width="350" height=auto/><br><br><br>
+- *2022.10*, **I starred in a drama, which received an overwhelming response and received reports from Guangdong Province**<br><br><img src="images/drama1.png" alt="" title="" width="350" height=auto/><img src="images/drama2.png" alt="" title="" width="250" height=auto/>
 <br><br><br>
 - **I like football and travelling, especially with my girlfriend.**
 <div id="slider" style="width: 1000px; overflow: hidden;">
@@ -113,20 +113,30 @@ Fang Guo\*, **Wenyu Li\***, Honglei Zhuang, Yun Luo, Yafu Li, Qi Zhu, Le Yan, Yu
         <!-- 图片集合 -->
         <!-- 第一组图片 -->
         <img src="images/1.png" alt="Image 1">
+        <img src="images/2.png" alt="Image 2">
+        <img src="images/3.png" alt="Image 3">
+        <img src="images/4.png" alt="Image 4">
         <img src="images/5.png" alt="Image 5">
         <img src="images/6.png" alt="Image 6">
         <img src="images/7.png" alt="Image 7">
         <img src="images/8.png" alt="Image 8">
         <img src="images/9.png" alt="Image 9">
+        <img src="images/10.png" alt="Image 10">
+        <img src="images/11.png" alt="Image 11">
         <img src="images/12.png" alt="Image 12">
         <img src="images/14.png" alt="Image 14">
         <!-- 第二组图片（复制的第一组） -->
         <img src="images/1.png" alt="Image 1">
+        <img src="images/2.png" alt="Image 2">
+        <img src="images/3.png" alt="Image 3">
+        <img src="images/4.png" alt="Image 4">
         <img src="images/5.png" alt="Image 5">
         <img src="images/6.png" alt="Image 6">
         <img src="images/7.png" alt="Image 7">
         <img src="images/8.png" alt="Image 8">
         <img src="images/9.png" alt="Image 9">
+        <img src="images/10.png" alt="Image 10">
+        <img src="images/11.png" alt="Image 11">
         <img src="images/12.png" alt="Image 12">
         <img src="images/14.png" alt="Image 14">
     </div>
