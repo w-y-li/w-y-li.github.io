@@ -23,17 +23,17 @@ I am Wenyu Li, you can also call me Wind. I am now a third year undergraduate of
 
 My research has primarily centered on information retrieval and text comprehension, leveraging advanced NLP techniques to bridge interdisciplinary domains. As I deepen my exploration of Large Language Models (LLMs), my goal is to expand my research to encompass a broader spectrum of LLM applications, moving beyond the realms of information understanding and retrieval. 
 
-<span style="color:red; font-size:larger;">Sincerely looking for 25fall Ph.D position!</span>
+<strong><span style="color:red; font-size:larger;">Sincerely looking for 25fall Ph.D position!</span></strong>
 <!-- My research interest includes neural machine translation and computer vision. I have published more than 100 papers at the top international AI conferences with total <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'>google scholar citations <strong><span id='total_cit'>260000+</span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>).
 -->
 
 # 🔥 News
-- *2024.05*: &nbsp;🎉🎉 I will start a new journey visiting Prof. Zhiyuan Liu at Tsinghua University!
+- *2024.05*: &nbsp;🎉🎉 I will start a new journey visiting [Prof. Zhiyuan Liu](https://nlp.csai.tsinghua.edu.cn/~lzy/) at Tsinghua University!
 - *2024.04*: &nbsp;🎉🎉 Our paper *Generating Diverse Criteria On-the-Fly to Improve Pointwise LLM Rankers* has been put on [Arxiv](https://arxiv.org/abs/2404.11960), welcome to have a look!
 - *2024.03*: &nbsp;🎉🎉 My first paper *Zero-shot Explainable Mental Health Analysis on Social Media by Incorporating Mental Scales* has been <span style="color:red;">accepted by The Web Conference (WWW) 2024</span> as Short Paper!
-- *2023.07*: &nbsp;🎉🎉 I will start visiting Prof. Yue Zhang's lab at Westlake University!
+- *2023.07*: &nbsp;🎉🎉 I will start visiting [Prof. Yue Zhang](https://frcchang.github.io/) at Westlake University!
 - *2023.06*: &nbsp;🎉🎉 I have been granted my first China patent!
-- *2023.05*: &nbsp;🎉🎉 Our project *Design of a Depression Risk Assessment System Based on Psychological Scales and AIGC Large Models* secured a National Project Approval under the China College Students' Innovation and Entrepreneurship Training Program!
+- *2023.05*: &nbsp;🎉🎉 Our project *"Design of a Depression Risk Assessment System Based on Psychological Scales and AIGC Large Models"* secured a National Project Approval under the China College Students' Innovation and Entrepreneurship Training Program!
 - *2023.03*: &nbsp;🎉🎉 Get the Future Innovation Award of Future Technology Taihu Innovation Award <span style="color:red;">(Top 3%)</span>!
 - *2023.03*: &nbsp;🎉🎉 Get the First class Science and Technology Innovation Award of Future Technology Taihu Innovation Award <span style="color:red;">(Top 3%)</span>!
 - *2023.01*: &nbsp;🎉🎉 Get the First Prize of Asia and Pacific Mathematical Contest in Modeling (APMCM) <span style="color:red;">(Top 5%)</span>!
@@ -106,16 +106,16 @@ Fang Guo\*, **Wenyu Li\***, Honglei Zhuang, Yun Luo, Yafu Li, Qi Zhu, Le Yan, Yu
 # 🩴 My Interesting Life
 - *2023.02*, **I cycled around Hainan Island in nine days, about 850 KM**, there is also a [video](https://www.bilibili.com/video/BV14e4y1P7o7/?vd_source=87867a0ba7d93f723755287cbc2e89fd) to record this.<br>
 <div style="display:flex; justify-content:space-around; align-items:flex-start; flex-wrap:wrap;">
-  <img src="images/cycle1.png" alt="Cycling around Hainan" title="Cycling around Hainan" width="380"/>
-  <img src="images/cycle2.png" alt="Cycling around Hainan" title="Cycling around Hainan" width="380"/>
+  <img src="images/cycle1.png" alt="Cycling around Hainan" title="Cycling around Hainan" width="280"/>
+  <img src="images/cycle2.png" alt="Cycling around Hainan" title="Cycling around Hainan" width="280"/>
 </div>
 
 <br>
 
 - *2022.10*, **I starred in a drama, which received an overwhelming response and received reports from Guangdong Province**<br>
 <div style="display:flex; justify-content:space-around; align-items:flex-start; flex-wrap:wrap;">
-  <img src="images/drama1.png" alt="Starring in a drama" title="Starring in a drama" width="525"/>
-  <img src="images/drama2.png" alt="Starring in a drama" title="Starring in a drama" width="235"/>
+  <img src="images/drama1.png" alt="Starring in a drama" title="Starring in a drama" width="425"/>
+  <img src="images/drama2.png" alt="Starring in a drama" title="Starring in a drama" width="135"/>
 </div>
 <br>
 
