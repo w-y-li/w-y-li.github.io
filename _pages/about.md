@@ -41,7 +41,6 @@ My research has primarily centered on information retrieval and text comprehensi
 - *2022.01*: &nbsp;🎉🎉 Our project *"Depression Tendency Analysis Chatbot Based on WeChat Official Accounts"* secured a Guangdong Province Science and Technology Innovation Strategic Special Fund Project!
 
 # 📝 Publications 
-
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">COLM 2024 Under Review</div><img src='images/COLM24.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
