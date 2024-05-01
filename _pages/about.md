@@ -37,7 +37,7 @@ My research has primarily centered on information retrieval and text comprehensi
 - *2023.03*: &nbsp;🎉🎉 Get the Future Innovation Award of Future Technology Taihu Innovation Award <span style="color:red;">(Top 3%)</span>!
 - *2023.03*: &nbsp;🎉🎉 Get the First class Science and Technology Innovation Award of Future Technology Taihu Innovation Award <span style="color:red;">(Top 3%)</span>!
 - *2023.01*: &nbsp;🎉🎉 Get the First Prize of Asia and Pacific Mathematical Contest in Modeling (APMCM) <span style="color:red;">(Top 5%)</span>!
-
+- *2022.01*: &nbsp;🎉🎉 Our project *"Depression Tendency Analysis Chatbot Based on WeChat Official Accounts"* secured a Guangdong Province Science and Technology Innovation Strategic Special Fund Project!
 # 📝 Publications 
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">COLM 2024 Under Review</div><img src='images/COLM24.png' alt="sym" width="100%"></div></div>
@@ -98,10 +98,11 @@ Fang Guo\*, **Wenyu Li\***, Honglei Zhuang, Yun Luo, Yafu Li, Qi Zhu, Le Yan, Yu
 - *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/)
 -->
 
-# 💻 Internships
-- *2024.05 - present*, Visitor, Supervisor: [Prof. Zhiyuan Liu](https://nlp.csai.tsinghua.edu.cn/~lzy/), **Tsinghua University**, Beijing, China.
-- *2023.07 - present*, Visiting Student, Supervisor: [Prof. Yue Zhang](https://frcchang.github.io/), **Westlake University**, Hangzhou, China.
-- *2019.10 - 2020.11*, Visitor, Mentor: Dr. Yadong Li, **University of Science and Technology of China**, Hefei, China.
+# 💻 Research Experience
+- *2024.05 - present*, Visitor, working on LLMs factual retrieval augmented generation, supervised by [Prof. Zhiyuan Liu](https://nlp.csai.tsinghua.edu.cn/~lzy/), **Tsinghua University**, Beijing, China.
+- *2023.07 - present*, Visiting Student, working on using LLMs to give a new solution to information retrieval, supervised by [Prof. Yue Zhang](https://frcchang.github.io/), **Westlake University**, Hangzhou, China.
+- *2022.09 - 2023.06*, Working on *"Design of a Depression Risk Assessment System Based on Psychological Scales and AIGC Large Models"*, surpervised by Principal Researcher Mo Yu, **WeChat AI, Tecent**, China.
+- *2019.10 - 2020.11*, Working on *"A Wearable Device Based on Somatic Interaction Technology"*, supervised by Dr. Yadong Li, **University of Science and Technology of China**, Hefei, China.
 
 # 🩴 My Interesting Life
 - *2023.02*, **I cycled around Hainan Island in nine days, about 850 KM**, there is also a [video](https://www.bilibili.com/video/BV14e4y1P7o7/?vd_source=87867a0ba7d93f723755287cbc2e89fd) to record this.<br>
