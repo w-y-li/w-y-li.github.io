@@ -20,6 +20,7 @@ redirect_from:
   <script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=UC6ibAca1Av5EPZP3WPd9Xzwv1J1pzlCFAfXYn0DNqI"></script>
 </div>
 
+<br><br>
 😎😎 **Welcome to my personal website!** 😎😎
 
 I am Wenyu Li, you can also call me Wind. I am now a third year undergraduate of South China University of Technology at Guangzhou, China, and you can find my CV [here](/WenyuLi_CV.pdf).
