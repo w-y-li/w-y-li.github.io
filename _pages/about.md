@@ -99,7 +99,7 @@ Fang Guo\*, **Wenyu Li\***, Honglei Zhuang, Yun Luo, Yafu Li, Qi Zhu, Le Yan, Yu
 - *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/)
 -->
 
-# 💻 Research Experience
+# 💻 Researches
 - *2024.05 - present*, Visitor, working on LLMs factual retrieval augmented generation, supervised by [Prof. Zhiyuan Liu](https://nlp.csai.tsinghua.edu.cn/~lzy/), **Tsinghua University**, Beijing, China.
 - *2023.07 - present*, Visiting Student, working on using LLMs to give a new solution to information retrieval, supervised by [Prof. Yue Zhang](https://frcchang.github.io/), **Westlake University**, Hangzhou, China.
 - *2022.09 - 2023.06*, Working on the design of a depression risk assessment system based on psychological scales and AIGC large models, surpervised by Principal Researcher Mo Yu, **WeChat AI, Tecent**, China.
