@@ -106,7 +106,22 @@ Fang Guo\*, **Wenyu Li\***, Honglei Zhuang, Yun Luo, Yafu Li, Qi Zhu, Le Yan, Yu
 # 🩴 My Interesting Life
 - *2023.02*, **I cycled around Hainan Island in nine days, about 850 KM**<br><br><img src="images/cycle1.png" alt="" title="" width="400" height=auto/>  <img src="images/cycle2.png" alt="" title="" width="400" height=auto/><br><br><br>
 - *2022.10*, **I starred in a drama, which received an overwhelming response and received reports from Guangdong Province**<br><br><img src="images/drama1.png" alt="" title="" width="500" height=auto/>  <img src="images/drama2.png" alt="" title="" width="250" height=auto/>
+
+- *2023.02*, **I cycled around Hainan Island in nine days, about 850 KM**<br><br>
+<div style="display:flex; justify-content:space-around; align-items:flex-start; flex-wrap:wrap;">
+  <img src="images/cycle1.png" alt="Cycling around Hainan" title="Cycling around Hainan" width="400"/>
+  <img src="images/cycle2.png" alt="Cycling around Hainan" title="Cycling around Hainan" width="400"/>
+</div>
+
+<br>
+
+- *2022.10*, **I starred in a drama, which received an overwhelming response and received reports from Guangdong Province**<br><br>
+<div style="display:flex; justify-content:space-around; align-items:flex-start; flex-wrap:wrap;">
+  <img src="images/drama1.png" alt="Starring in a drama" title="Starring in a drama" width="500"/>
+  <img src="images/drama2.png" alt="Starring in a drama" title="Starring in a drama" width="250"/>
+</div>
 <br><br><br>
+
 - **I like football and travelling, especially with my girlfriend.**
 <div id="slider" style="width: 900px; overflow: hidden;">
     <div id="slider-inner">
