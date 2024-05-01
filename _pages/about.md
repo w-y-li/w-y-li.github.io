@@ -17,13 +17,13 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-**Welcome to my personal website!**
+Welcome to my personal website!
 
 I am Wenyu Li, you can also call me Wind. I am now a third year undergraduate of South China University of Technology and also a visiting student at Prof. Yue Zhang's lab in Westlake University, Hangzhou, China.
 
-My prior research has focused on information retrieval, text understanding, and applying advanced NLP techniques in interdisciplinary areas. In particular, I have been working on zero-shot text ranking, complex query-based summarization, and social media mental health analysis. 
+My research has primarily centered on information retrieval and text comprehension, leveraging advanced NLP techniques to bridge interdisciplinary domains. As I deepen my exploration of Large Language Models (LLMs), my goal is to expand my research to encompass a broader spectrum of LLM applications, moving beyond the realms of information understanding and retrieval. 
 
-As I continue to delve into the realm of LLMs, I would love to continue my research on various LLM-based tasks beyond information understanding and seeking. Additionally, I am keen on creating data-driven solutions that cater to a variety of interdisciplinary fields.
+<span style="color:red; font-size:larger;">Sincerely looking for 25fall Ph.D position!</span>
 <!-- My research interest includes neural machine translation and computer vision. I have published more than 100 papers at the top international AI conferences with total <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'>google scholar citations <strong><span id='total_cit'>260000+</span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>).
 -->
 
