@@ -225,7 +225,7 @@ window.addEventListener('resize', calculateTotalWidth);
 </style>
 
 <br>
-<div style="width: 500px; height: 500px;"> <!-- 设置您想要的宽度和高度 -->
+<div style="width: 500px; height: 500px; margin: auto;"> <!-- 设置您想要的宽度和高度 -->
   <script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=UC6ibAca1Av5EPZP3WPd9Xzwv1J1pzlCFAfXYn0DNqI"></script>
 </div>
 <br>
