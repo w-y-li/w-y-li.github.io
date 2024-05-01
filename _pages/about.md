@@ -120,7 +120,7 @@ Fang Guo\*, **Wenyu Li\***, Honglei Zhuang, Yun Luo, Yafu Li, Qi Zhu, Le Yan, Yu
 <br>
 
 - **I like football and travelling, especially with my girlfriend.**<br>
-<div id="slider" style="width: 900px; overflow: hidden; margin-left: 57px;">
+<div id="slider" style="width: 900px; overflow: hidden; margin-left: 56px;">
     <div id="slider-inner">
         <img src="images/1.png" alt="Image 1">
         <img src="images/2.png" alt="Image 2">
