@@ -108,7 +108,7 @@ Fang Guo\*, **Wenyu Li\***, Honglei Zhuang, Yun Luo, Yafu Li, Qi Zhu, Le Yan, Yu
 # 🩴 My Interesting Life
 - *2023.02*, **I cycled around Hainan Island in nine days, about 850 KM**, there is also a [video](https://www.bilibili.com/video/BV14e4y1P7o7/?vd_source=87867a0ba7d93f723755287cbc2e89fd) to record this.<br>
 <div style="display:flex; justify-content:center; align-items:flex-start; flex-wrap:wrap;">
-  <img src="images/cycle1.png" alt="Cycling around Hainan" title="Cycling around Hainan" width="330"/>&nbsp;
+  <img src="images/cycle1.png" alt="Cycling around Hainan" title="Cycling around Hainan" width="330"/>&nbsp;&nbsp;&nbsp;
   <img src="images/cycle2.png" alt="Cycling around Hainan" title="Cycling around Hainan" width="330"/>
 </div>
 
@@ -116,7 +116,7 @@ Fang Guo\*, **Wenyu Li\***, Honglei Zhuang, Yun Luo, Yafu Li, Qi Zhu, Le Yan, Yu
 
 - *2022.10*, **I starred in a drama, which received an overwhelming response and received reports from Guangdong Province**<br>
 <div style="display:flex; justify-content:center; align-items:flex-start; flex-wrap:wrap;">
-  <img src="images/drama1.png" alt="Starring in a drama" title="Starring in a drama" width="445"/>&nbsp;
+  <img src="images/drama1.png" alt="Starring in a drama" title="Starring in a drama" width="445"/>&nbsp;&nbsp;&nbsp;
   <img src="images/drama2.png" alt="Starring in a drama" title="Starring in a drama" width="200"/>
 </div>
 <br>
