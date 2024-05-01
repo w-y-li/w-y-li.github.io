@@ -127,31 +127,48 @@ Fang Guo\*, **Wenyu Li\***, Honglei Zhuang, Yun Luo, Yafu Li, Qi Zhu, Le Yan, Yu
 </div>
 
 <script>
+var sliderInner = document.getElementById('slider-inner');
+var images = sliderInner.getElementsByTagName('img');
+var totalWidth = 0;
+var currentOffset = 0;
+var animationFrame;
+
+// 计算所有图片的总宽度
 function calculateTotalWidth() {
-  var images = document.getElementById('slider-inner').getElementsByTagName('img');
-  var totalWidth = 0;
-  for (var img of images) {
-    totalWidth += img.offsetWidth + 10; // 加上margin的宽度
-  }
-  return totalWidth;
+    totalWidth = 0;
+    for (var img of images) {
+        totalWidth += img.offsetWidth + 10; // 加上margin的宽度
+    }
 }
 
-function startAnimation() {
-  var sliderInner = document.getElementById('slider-inner');
-  var firstImg = sliderInner.getElementsByTagName('img')[0];
-  var clone = firstImg.cloneNode(true);
-  sliderInner.appendChild(clone);
-  firstImg.remove();
-  sliderInner.style.transition = 'none';
-  sliderInner.style.transform = 'translateX(0)';
-  // 强制重绘
-  sliderInner.offsetHeight;
-  sliderInner.style.transition = 'transform 2s linear';
-  sliderInner.style.transform = 'translateX(-' + firstImg.offsetWidth + 'px)';
+// 更新滚动动画
+function updateAnimation() {
+    var maxScroll = totalWidth - slider.offsetWidth;
+    if (currentOffset < maxScroll) {
+        currentOffset += 2; // 滚动速度
+        sliderInner.style.transform = 'translateX(-' + currentOffset + 'px)';
+        animationFrame = requestAnimationFrame(updateAnimation);
+    } else {
+        // 重置滚动位置
+        currentOffset = 0;
+        sliderInner.style.transform = 'translateX(0)';
+        // 重新开始动画
+        animationFrame = requestAnimationFrame(updateAnimation);
+    }
 }
 
+// 当窗口大小变化时重新计算总宽度
+window.addEventListener('resize', calculateTotalWidth);
+
+// 在页面加载时初始化动画
 window.onload = function() {
-  setInterval(startAnimation, 2000); // 每2秒滚动一次
+    calculateTotalWidth();
+    animationFrame = requestAnimationFrame(updateAnimation);
+};
+
+// 清理动画帧以防止内存泄漏
+window.onunload = function() {
+    cancelAnimationFrame(animationFrame);
 };
 </script>
 
@@ -171,7 +188,7 @@ window.onload = function() {
 #slider-inner {
     display: flex;
     align-items: center; /* 垂直居中 */
-    transition: transform 2s linear;
+    will-change: transform; /* 提示浏览器该属性会变化，可能需要优化 */
 }
 
 @keyframes scroll {
