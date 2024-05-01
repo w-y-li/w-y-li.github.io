@@ -109,7 +109,7 @@ Fang Guo\*, **Wenyu Li\***, Honglei Zhuang, Yun Luo, Yafu Li, Qi Zhu, Le Yan, Yu
 <br><br><br>
 - **I like football and travelling, especially with my girlfriend.**
 <div id="slider" style="width: 900px; overflow: hidden;">
-    <div id="slider-inner" style="white-space: nowrap;">
+    <div id="slider-inner">
         <img src="images/1.png" alt="Image 1">
         <img src="images/2.png" alt="Image 2">
         <img src="images/3.png" alt="Image 3">
@@ -127,70 +127,61 @@ Fang Guo\*, **Wenyu Li\***, Honglei Zhuang, Yun Luo, Yafu Li, Qi Zhu, Le Yan, Yu
 </div>
 
 <script>
-// 获取slider-inner和所有的img元素
+var slider = document.getElementById('slider');
 var sliderInner = document.getElementById('slider-inner');
-var imgs = sliderInner.getElementsByTagName('img');
-
-// 初始化总宽度和当前偏移量
+var images = sliderInner.getElementsByTagName('img');
 var totalWidth = 0;
 var currentOffset = 0;
+var animationSpeed = 1;
 
 // 计算所有图片的总宽度
 function calculateTotalWidth() {
-    totalWidth = 0;
-    for (var img of imgs) {
-        totalWidth += img.offsetWidth + 10; // 假设margin-right为10px
+    totalWidth = Array.from(images).reduce((acc, img) => acc + img.offsetWidth + 10, 0); // 加上margin的宽度
+}
+
+// 动态移动图片以实现无限滚动
+function cycleImages() {
+    var firstImageWidth = images[0].offsetWidth + 10; // 加上margin的宽度
+
+    if (currentOffset >= firstImageWidth) {
+        sliderInner.appendChild(images[0]); // 将第一张图片移动到最后
+        currentOffset -= firstImageWidth; // 调整当前偏移量
+        sliderInner.style.transform = 'translateX(-' + currentOffset + 'px)';
     }
 }
 
-// 动态更新滚动位置
-function updateSlider() {
-    // 如果当前偏移量小于最后一张图片的左边界，则正常滚动
-    if (currentOffset < totalWidth - imgs[0].offsetWidth) {
-        currentOffset++;
-        sliderInner.style.transform = 'translateX(-' + currentOffset + 'px)';
-    } else {
-        // 否则，将第一张图片移动到最后，并更新总宽度和当前偏移量
-        sliderInner.appendChild(imgs[0]);
-        calculateTotalWidth();
-        sliderInner.style.transform = 'translateX(-' + currentOffset + 'px)';
-        currentOffset -= imgs[0].offsetWidth;
-    }
+// 更新滚动动画
+function updateAnimation() {
+    currentOffset += animationSpeed;
+    sliderInner.style.transform = 'translateX(-' + currentOffset + 'px)';
+    cycleImages(); // 检查是否需要循环图片
+    requestAnimationFrame(updateAnimation);
 }
 
-// 使用requestAnimationFrame进行平滑动画
-function animate() {
-    updateSlider();
-    requestAnimationFrame(animate);
-}
+// 初始化
+calculateTotalWidth();
+requestAnimationFrame(updateAnimation);
 
-// 当所有内容加载完成后开始动画
-window.onload = function() {
-    calculateTotalWidth();
-    animate();
-};
-
-// 监听窗口大小变化事件，重新计算宽度
+// 当窗口大小变化时重新计算宽度
 window.addEventListener('resize', calculateTotalWidth);
 </script>
 
 <style>
-#slider-inner img {
+#slider img {
     max-height: 280px;
     height: auto;
-    width: auto;
+    min-width: 100px; /* 根据实际情况调整 */
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     border: 1px solid #ddd;
-    margin-right: 10px;
-    border-radius: 10px;
-    display: inline-block; /* 使图片水平排列 */
-    vertical-align: top; /* 对齐图片顶部 */
+    margin-right: 10px; /* 增加间距 */
+    border-radius: 10px; /* 圆角边框 */
+    flex-shrink: 0;
 }
 
 #slider-inner {
     display: flex;
-    align-items: center; /* 垂直居中 */
-    will-change: transform; /* 提示浏览器该属性会变化，可能需要优化 */
+    align-items: center;
+    transition: none; /* 移除过渡效果以避免移动时的跳动 */
 }
 
 @keyframes scroll {
