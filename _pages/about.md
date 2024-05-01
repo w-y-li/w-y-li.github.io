@@ -19,7 +19,7 @@ redirect_from:
 
 Welcome to my personal website!
 
-I am Wenyu Li, you can also call me Wind. I am now a third year undergraduate of South China University of Technology and also a visiting student at Prof. Yue Zhang's lab in Westlake University, Hangzhou, China.
+I am Wenyu Li, you can also call me Wind. I am now a third year undergraduate of South China University of Technology at Guangzhou, China, and you can find my CV [here]('WenyuLi_CV.pdf').
 
 My research has primarily centered on information retrieval and text comprehension, leveraging advanced NLP techniques to bridge interdisciplinary domains. As I deepen my exploration of Large Language Models (LLMs), my goal is to expand my research to encompass a broader spectrum of LLM applications, moving beyond the realms of information understanding and retrieval. 
 
@@ -38,6 +38,7 @@ My research has primarily centered on information retrieval and text comprehensi
 - *2023.03*: &nbsp;🎉🎉 Get the First class Science and Technology Innovation Award of Future Technology Taihu Innovation Award <span style="color:red;">(Top 3%)</span>!
 - *2023.01*: &nbsp;🎉🎉 Get the First Prize of Asia and Pacific Mathematical Contest in Modeling (APMCM) <span style="color:red;">(Top 5%)</span>!
 - *2022.01*: &nbsp;🎉🎉 Our project *"Depression Tendency Analysis Chatbot Based on WeChat Official Accounts"* secured a Guangdong Province Science and Technology Innovation Strategic Special Fund Project!
+
 # 📝 Publications 
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">COLM 2024 Under Review</div><img src='images/COLM24.png' alt="sym" width="100%"></div></div>
