@@ -17,7 +17,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-Welcome to my personal website!
+😎Welcome to my personal website!
 
 I am Wenyu Li, you can also call me Wind. I am now a third year undergraduate of South China University of Technology at Guangzhou, China, and you can find my CV [here](/WenyuLi_CV.pdf).
 
