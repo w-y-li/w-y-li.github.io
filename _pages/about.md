@@ -109,7 +109,7 @@ Fang Guo\*, **Wenyu Li\***, Honglei Zhuang, Yun Luo, Yafu Li, Qi Zhu, Le Yan, Yu
 <br><br><br>
 - **I like football and travelling, especially with my girlfriend.**
 <div id="slider" style="width: 900px; overflow: hidden;">
-    <div id="slider-inner">
+    <div id="slider-inner" style="white-space: nowrap;">
         <img src="images/1.png" alt="Image 1">
         <img src="images/2.png" alt="Image 2">
         <img src="images/3.png" alt="Image 3">
@@ -127,66 +127,64 @@ Fang Guo\*, **Wenyu Li\***, Honglei Zhuang, Yun Luo, Yafu Li, Qi Zhu, Le Yan, Yu
 </div>
 
 <script>
-var slider = document.getElementById('slider');
+// 获取slider-inner和所有的img元素
 var sliderInner = document.getElementById('slider-inner');
-var images = sliderInner.getElementsByTagName('img');
+var imgs = sliderInner.getElementsByTagName('img');
+
+// 初始化总宽度和当前偏移量
 var totalWidth = 0;
 var currentOffset = 0;
-var animationFrame;
 
 // 计算所有图片的总宽度
 function calculateTotalWidth() {
     totalWidth = 0;
-    for (var img of images) {
-        totalWidth += img.offsetWidth + 10; // 加上margin的宽度
+    for (var img of imgs) {
+        totalWidth += img.offsetWidth + 10; // 假设margin-right为10px
     }
 }
 
-// 更新滚动动画
-function updateAnimation() {
-    var maxScroll = totalWidth - slider.offsetWidth;
-    if (currentOffset < maxScroll) {
-        currentOffset += 1; // 滚动速度
+// 动态更新滚动位置
+function updateSlider() {
+    // 如果当前偏移量小于最后一张图片的左边界，则正常滚动
+    if (currentOffset < totalWidth - imgs[0].offsetWidth) {
+        currentOffset++;
         sliderInner.style.transform = 'translateX(-' + currentOffset + 'px)';
-        animationFrame = requestAnimationFrame(updateAnimation);
     } else {
-        // 将第一个图片复制到最后，然后重置滚动位置
-        var firstImg = sliderInner.removeChild(images[0]);
-        sliderInner.appendChild(firstImg);
-        calculateTotalWidth(); // 重新计算总宽度
-        sliderInner.style.transform = 'translateX(0)';
-        currentOffset = 0;
-        // 重新开始动画
-        animationFrame = requestAnimationFrame(updateAnimation);
+        // 否则，将第一张图片移动到最后，并更新总宽度和当前偏移量
+        sliderInner.appendChild(imgs[0]);
+        calculateTotalWidth();
+        sliderInner.style.transform = 'translateX(-' + currentOffset + 'px)';
+        currentOffset -= imgs[0].offsetWidth;
     }
 }
 
-// 当窗口大小变化时重新计算总宽度
-window.addEventListener('resize', calculateTotalWidth);
+// 使用requestAnimationFrame进行平滑动画
+function animate() {
+    updateSlider();
+    requestAnimationFrame(animate);
+}
 
-// 在页面加载时初始化动画
+// 当所有内容加载完成后开始动画
 window.onload = function() {
     calculateTotalWidth();
-    animationFrame = requestAnimationFrame(updateAnimation);
+    animate();
 };
 
-// 清理动画帧以防止内存泄漏
-window.onunload = function() {
-    cancelAnimationFrame(animationFrame);
-};
+// 监听窗口大小变化事件，重新计算宽度
+window.addEventListener('resize', calculateTotalWidth);
 </script>
 
 <style>
-#slider img {
+#slider-inner img {
     max-height: 280px;
     height: auto;
-    min-width: 100px; /* 根据实际情况调整 */
+    width: auto;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     border: 1px solid #ddd;
-    margin-right: 10px; /* 增加间距 */
-    border-radius: 10px; /* 圆角边框 */
-    flex-shrink: 0;
-    transition: transform 0.3s ease, box-shadow 0.3s ease; /* 平滑的过渡效果 */
+    margin-right: 10px;
+    border-radius: 10px;
+    display: inline-block; /* 使图片水平排列 */
+    vertical-align: top; /* 对齐图片顶部 */
 }
 
 #slider-inner {
