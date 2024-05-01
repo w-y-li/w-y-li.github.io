@@ -104,10 +104,7 @@ Fang Guo\*, **Wenyu Li\***, Honglei Zhuang, Yun Luo, Yafu Li, Qi Zhu, Le Yan, Yu
 - *2019.10 - 2020.11*, Visitor, Mentor: Dr. Yadong Li, **University of Science and Technology of China**, Hefei, China.
 
 # 🩴 My Interesting Life
-- *2023.02*, **I cycled around Hainan Island in nine days, about 850 KM**<br><br><img src="images/cycle1.png" alt="" title="" width="400" height=auto/>  <img src="images/cycle2.png" alt="" title="" width="400" height=auto/><br><br><br>
-- *2022.10*, **I starred in a drama, which received an overwhelming response and received reports from Guangdong Province**<br><br><img src="images/drama1.png" alt="" title="" width="500" height=auto/>  <img src="images/drama2.png" alt="" title="" width="250" height=auto/>
-
-- *2023.02*, **I cycled around Hainan Island in nine days, about 850 KM**<br><br>
+- *2023.02*, **I cycled around Hainan Island in nine days, about 850 KM**, there is also a [video](https://www.bilibili.com/video/BV14e4y1P7o7/?vd_source=87867a0ba7d93f723755287cbc2e89fd) to record this.<br><br>
 <div style="display:flex; justify-content:space-around; align-items:flex-start; flex-wrap:wrap;">
   <img src="images/cycle1.png" alt="Cycling around Hainan" title="Cycling around Hainan" width="400"/>
   <img src="images/cycle2.png" alt="Cycling around Hainan" title="Cycling around Hainan" width="400"/>
@@ -117,7 +114,7 @@ Fang Guo\*, **Wenyu Li\***, Honglei Zhuang, Yun Luo, Yafu Li, Qi Zhu, Le Yan, Yu
 
 - *2022.10*, **I starred in a drama, which received an overwhelming response and received reports from Guangdong Province**<br><br>
 <div style="display:flex; justify-content:space-around; align-items:flex-start; flex-wrap:wrap;">
-  <img src="images/drama1.png" alt="Starring in a drama" title="Starring in a drama" width="500"/>
+  <img src="images/drama1.png" alt="Starring in a drama" title="Starring in a drama" width="600"/>
   <img src="images/drama2.png" alt="Starring in a drama" title="Starring in a drama" width="250"/>
 </div>
 <br><br><br>
