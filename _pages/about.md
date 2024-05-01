@@ -101,22 +101,22 @@ Fang Guo\*, **Wenyu Li\***, Honglei Zhuang, Yun Luo, Yafu Li, Qi Zhu, Le Yan, Yu
 # 💻 Research Experience
 - *2024.05 - present*, Visitor, working on LLMs factual retrieval augmented generation, supervised by [Prof. Zhiyuan Liu](https://nlp.csai.tsinghua.edu.cn/~lzy/), **Tsinghua University**, Beijing, China.
 - *2023.07 - present*, Visiting Student, working on using LLMs to give a new solution to information retrieval, supervised by [Prof. Yue Zhang](https://frcchang.github.io/), **Westlake University**, Hangzhou, China.
-- *2022.09 - 2023.06*, Working on *"Design of a Depression Risk Assessment System Based on Psychological Scales and AIGC Large Models"*, surpervised by Principal Researcher Mo Yu, **WeChat AI, Tecent**, China.
-- *2019.10 - 2020.11*, Working on *"A Wearable Device Based on Somatic Interaction Technology"*, supervised by Dr. Yadong Li, **University of Science and Technology of China**, Hefei, China.
+- *2022.09 - 2023.06*, Working on the design of a depression risk assessment system based on psychological scales and AIGC large models, surpervised by Principal Researcher Mo Yu, **WeChat AI, Tecent**, China.
+- *2019.10 - 2020.11*, Working on a wearable device based on somatic interaction technology, supervised by Dr. Yadong Li, **University of Science and Technology of China**, Hefei, China.
 
 # 🩴 My Interesting Life
 - *2023.02*, **I cycled around Hainan Island in nine days, about 850 KM**, there is also a [video](https://www.bilibili.com/video/BV14e4y1P7o7/?vd_source=87867a0ba7d93f723755287cbc2e89fd) to record this.<br>
 <div style="display:flex; justify-content:space-around; align-items:flex-start; flex-wrap:wrap;">
-  <img src="images/cycle1.png" alt="Cycling around Hainan" title="Cycling around Hainan" width="280"/>
-  <img src="images/cycle2.png" alt="Cycling around Hainan" title="Cycling around Hainan" width="280"/>
+  <img src="images/cycle1.png" alt="Cycling around Hainan" title="Cycling around Hainan" width="380"/>
+  <img src="images/cycle2.png" alt="Cycling around Hainan" title="Cycling around Hainan" width="380"/>
 </div>
 
 <br>
 
 - *2022.10*, **I starred in a drama, which received an overwhelming response and received reports from Guangdong Province**<br>
 <div style="display:flex; justify-content:space-around; align-items:flex-start; flex-wrap:wrap;">
-  <img src="images/drama1.png" alt="Starring in a drama" title="Starring in a drama" width="425"/>
-  <img src="images/drama2.png" alt="Starring in a drama" title="Starring in a drama" width="135"/>
+  <img src="images/drama1.png" alt="Starring in a drama" title="Starring in a drama" width="525"/>
+  <img src="images/drama2.png" alt="Starring in a drama" title="Starring in a drama" width="235"/>
 </div>
 <br>
 
