@@ -114,13 +114,13 @@ Fang Guo\*, **Wenyu Li\***, Honglei Zhuang, Yun Luo, Yafu Li, Qi Zhu, Le Yan, Yu
 
 - *2022.10*, **I starred in a drama, which received an overwhelming response and received reports from Guangdong Province**<br>
 <div style="display:flex; justify-content:space-around; align-items:flex-start; flex-wrap:wrap;">
-  <img src="images/drama1.png" alt="Starring in a drama" title="Starring in a drama" width="530"/>
-  <img src="images/drama2.png" alt="Starring in a drama" title="Starring in a drama" width="230"/>
+  <img src="images/drama1.png" alt="Starring in a drama" title="Starring in a drama" width="525"/>
+  <img src="images/drama2.png" alt="Starring in a drama" title="Starring in a drama" width="235"/>
 </div>
 <br><br><br>
 
 - **I like football and travelling, especially with my girlfriend.**<br>
-<div id="slider" style="width: 900px; overflow: hidden; margin-left: 40px;">
+<div id="slider" style="width: 900px; overflow: hidden; margin-left: 70px;">
     <div id="slider-inner">
         <img src="images/1.png" alt="Image 1">
         <img src="images/2.png" alt="Image 2">
