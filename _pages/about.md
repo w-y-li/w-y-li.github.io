@@ -109,23 +109,7 @@ Fang Guo\*, **Wenyu Li\***, Honglei Zhuang, Yun Luo, Yafu Li, Qi Zhu, Le Yan, Yu
 <br><br><br>
 - **I like football and travelling, especially with my girlfriend.**
 <div id="slider" style="width: 900px; overflow: hidden;">
-    <div id="slider-inner" style="display: flex; animation: scroll 100s linear infinite;">
-        <!-- 图片集合 -->
-        <!-- 第一组图片 -->
-        <img src="images/1.png" alt="Image 1">
-        <img src="images/2.png" alt="Image 2">
-        <img src="images/3.png" alt="Image 3">
-        <img src="images/4.png" alt="Image 4">
-        <img src="images/5.png" alt="Image 5">
-        <img src="images/6.png" alt="Image 6">
-        <img src="images/7.png" alt="Image 7">
-        <img src="images/8.png" alt="Image 8">
-        <img src="images/9.png" alt="Image 9">
-        <img src="images/10.png" alt="Image 10">
-        <img src="images/11.png" alt="Image 11">
-        <img src="images/12.png" alt="Image 12">
-        <img src="images/14.png" alt="Image 14">
-        <!-- 第二组图片（复制的第一组） -->
+    <div id="slider-inner">
         <img src="images/1.png" alt="Image 1">
         <img src="images/2.png" alt="Image 2">
         <img src="images/3.png" alt="Image 3">
@@ -143,13 +127,31 @@ Fang Guo\*, **Wenyu Li\***, Honglei Zhuang, Yun Luo, Yafu Li, Qi Zhu, Le Yan, Yu
 </div>
 
 <script>
-window.onload = function() {
+function calculateTotalWidth() {
   var images = document.getElementById('slider-inner').getElementsByTagName('img');
   var totalWidth = 0;
   for (var img of images) {
-    totalWidth += img.offsetWidth;
+    totalWidth += img.offsetWidth + 10; // 加上margin的宽度
   }
-  document.documentElement.style.setProperty('--totalWidth', totalWidth + 'px');
+  return totalWidth;
+}
+
+function startAnimation() {
+  var sliderInner = document.getElementById('slider-inner');
+  var firstImg = sliderInner.getElementsByTagName('img')[0];
+  var clone = firstImg.cloneNode(true);
+  sliderInner.appendChild(clone);
+  firstImg.remove();
+  sliderInner.style.transition = 'none';
+  sliderInner.style.transform = 'translateX(0)';
+  // 强制重绘
+  sliderInner.offsetHeight;
+  sliderInner.style.transition = 'transform 2s linear';
+  sliderInner.style.transform = 'translateX(-' + firstImg.offsetWidth + 'px)';
+}
+
+window.onload = function() {
+  setInterval(startAnimation, 2000); // 每2秒滚动一次
 };
 </script>
 
@@ -169,6 +171,7 @@ window.onload = function() {
 #slider-inner {
     display: flex;
     align-items: center; /* 垂直居中 */
+    transition: transform 2s linear;
 }
 
 @keyframes scroll {
