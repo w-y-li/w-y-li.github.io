@@ -29,6 +29,7 @@ My research has primarily centered on information retrieval and text comprehensi
 -->
 
 # 🔥 News
+- *2024.05*: &nbsp;🎉🎉 I go to Singapore and attend The Web Conference 2024 on site!
 - *2024.05*: &nbsp;🎉🎉 I will start a new journey visiting [Prof. Zhiyuan Liu](https://nlp.csai.tsinghua.edu.cn/~lzy/) at Tsinghua University!
 - *2024.04*: &nbsp;🎉🎉 Our paper *Generating Diverse Criteria On-the-Fly to Improve Pointwise LLM Rankers* has been put on [Arxiv](https://arxiv.org/abs/2404.11960), welcome to have a look!
 - *2024.03*: &nbsp;🎉🎉 My first paper *Zero-shot Explainable Mental Health Analysis on Social Media by Incorporating Mental Scales* has been <span style="color:red;">accepted by The Web Conference (WWW) 2024</span> as Short Paper!
