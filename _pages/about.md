@@ -24,13 +24,15 @@ I am Wenyu Li, you can also call me Wind. I am now a third year undergraduate of
 
 My research has primarily centered on information retrieval and text comprehension, leveraging advanced NLP techniques to bridge interdisciplinary domains. As I deepen my exploration of Large Language Models (LLMs), my goal is to expand my research to encompass a broader spectrum of LLM applications, moving beyond the realms of information understanding and retrieval. 
 
-<strong><span style="color:red; font-size:larger;">Sincerely looking for 25fall Ph.D position!</span></strong>
+<strong><span style="color:red; font-size:larger;">I will join Westlake NLP group as a Phd student supervised by [Prof. Yue Zhang](https://frcchang.github.io/) in 2025 fall!</span></strong>
 <!-- My research interest includes neural machine translation and computer vision. I have published more than 100 papers at the top international AI conferences with total <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'>google scholar citations <strong><span id='total_cit'>260000+</span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>).
 -->
 
 # 🔥 News
+- *2024.10*: &nbsp;🎉🎉 Our paper *Generating Diverse Criteria On-the-Fly to Improve Pointwise LLM Rankers* has been <span style="color:red;">accepted by The 18th ACM International Conference on Web Search and Data Mining (WSDM) 2025</span> as Main Conference Paper!
+- *2024.09*: &nbsp;🎉🎉 <span style="color:red;">I have been admitted as a PhD student at Westlake University (with the highest score in the interview)!</span>
 - *2024.05*: &nbsp;🎉🎉 I go to Singapore and attend The Web Conference 2024 on site!
-- *2024.05*: &nbsp;🎉🎉 I will start a new journey visiting [Prof. Zhiyuan Liu](https://nlp.csai.tsinghua.edu.cn/~lzy/) at Tsinghua University!
+- *2024.06*: &nbsp;🎉🎉 I will start a new journey visiting [Prof. Zhiyuan Liu](https://nlp.csai.tsinghua.edu.cn/~lzy/) at Tsinghua University!
 - *2024.04*: &nbsp;🎉🎉 Our paper *Generating Diverse Criteria On-the-Fly to Improve Pointwise LLM Rankers* has been put on [Arxiv](https://arxiv.org/abs/2404.11960), welcome to have a look!
 - *2024.03*: &nbsp;🎉🎉 My first paper *Zero-shot Explainable Mental Health Analysis on Social Media by Incorporating Mental Scales* has been <span style="color:red;">accepted by The Web Conference (WWW) 2024</span> as Short Paper!
 - *2023.07*: &nbsp;🎉🎉 I will start visiting [Prof. Yue Zhang](https://frcchang.github.io/) at Westlake University!
@@ -42,7 +44,7 @@ My research has primarily centered on information retrieval and text comprehensi
 - *2022.01*: &nbsp;🎉🎉 Our project *"Depression Tendency Analysis Chatbot Based on WeChat Official Accounts"* secured a Guangdong Province Science and Technology Innovation Strategic Special Fund Project!
 
 # 📝 Publications 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">COLM 2024 Under Review</div><img src='images/COLM24.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">WSDM 2025</div><img src='images/COLM24.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Generating Diverse Criteria On-the-Fly to Improve Pointwise LLM Rankers](https://arxiv.org/abs/2404.11960)
@@ -74,6 +76,8 @@ Fang Guo\*, **Wenyu Li\***, Honglei Zhuang, Yun Luo, Yafu Li, Qi Zhu, Le Yan, Yu
 
 
 # 🎖 Honors and Awards
+- *2024.10*:&nbsp;  Third-Class South China University of Technology Scholarship. 
+- *2024.03*:&nbsp;  Study Abroad Innovation Award, Future Technology Taihu Innovation Award by Wuxi government.
 - *2023.11*:&nbsp;  Third-Class South China University of Technology Scholarship. 
 - *2023.11*:&nbsp;  Third-class Excellence Group Enterprise Donated Scholarship.
 - *2023.03*:&nbsp;  Future Innovation Award, Future Technology Taihu Innovation Award by Wuxi government.
@@ -93,6 +97,7 @@ Fang Guo\*, **Wenyu Li\***, Honglei Zhuang, Yun Luo, Yafu Li, Qi Zhu, Le Yan, Yu
 
 # 🎓 Social Service
 - Conference Reviewer: IJCAI 2024
+- Conference Volunteer: NLPCC 2024 (Hangzhou, China)
 
 <!--
 # 💬 Social Service
@@ -101,7 +106,7 @@ Fang Guo\*, **Wenyu Li\***, Honglei Zhuang, Yun Luo, Yafu Li, Qi Zhu, Le Yan, Yu
 -->
 
 # 💻 Researches
-- *2024.05 - present*, Visitor, working on LLMs factual retrieval augmented generation, supervised by [Prof. Zhiyuan Liu](https://nlp.csai.tsinghua.edu.cn/~lzy/), **Tsinghua University**, Beijing, China.
+- *2024.06 - 2024.09*, Visitor, working on personalised human-bot dialogue system, supervised by [Prof. Zhiyuan Liu](https://nlp.csai.tsinghua.edu.cn/~lzy/), **Tsinghua University**, Beijing, China.
 - *2023.07 - present*, Visiting Student, working on using LLMs to give a new solution to information retrieval, supervised by [Prof. Yue Zhang](https://frcchang.github.io/), **Westlake University**, Hangzhou, China.
 - *2022.09 - 2023.06*, Working on the design of a depression risk assessment system based on psychological scales and AIGC large models, surpervised by Principal Researcher Mo Yu, **WeChat AI, Tecent**, China.
 - *2019.10 - 2020.11*, Working on a wearable device based on somatic interaction technology, supervised by Dr. Yadong Li, **University of Science and Technology of China**, Hefei, China.
