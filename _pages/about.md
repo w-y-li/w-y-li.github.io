@@ -34,7 +34,7 @@ My research has primarily centered on information retrieval and text comprehensi
 - *2024.05*: &nbsp;🎉🎉 I go to Singapore and attend The Web Conference 2024 on site!
 - *2024.06*: &nbsp;🎉🎉 I will start a new journey visiting [Prof. Zhiyuan Liu](https://nlp.csai.tsinghua.edu.cn/~lzy/) at Tsinghua University!
 - *2024.04*: &nbsp;🎉🎉 Our paper *Generating Diverse Criteria On-the-Fly to Improve Pointwise LLM Rankers* has been put on [Arxiv](https://arxiv.org/abs/2404.11960), welcome to have a look!
-- *2024.03*: &nbsp;🎉🎉 My first paper *Zero-shot Explainable Mental Health Analysis on Social Media by Incorporating Mental Scales* has been <span style="color:red;">accepted by The Web Conference (WWW) 2024</span> as Short Paper!
+- *2024.03*: &nbsp;🎉🎉 My first paper *Zero-shot Explainable Mental Health Analysis on Social Media by Incorporating Mental Scales* has been <span style="color:red;">accepted by The Web Conference (WWW) 2024</span>!
 - *2023.07*: &nbsp;🎉🎉 I will start visiting [Prof. Yue Zhang](https://frcchang.github.io/) at Westlake University!
 - *2023.06*: &nbsp;🎉🎉 I have been granted my first [China patent](https://patents.google.com/patent/CN110413126B/en?oq=CN110%2c413%2c126+B)!
 - *2023.05*: &nbsp;🎉🎉 Our project *"Design of a Depression Risk Assessment System Based on Psychological Scales and AIGC Large Models"* secured a National Project Approval under the China College Students' Innovation and Entrepreneurship Training Program!
@@ -56,7 +56,7 @@ Fang Guo\*, **Wenyu Li\***, Honglei Zhuang, Yun Luo, Yafu Li, Qi Zhu, Le Yan, Yu
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">WWW 2024 Short Paper</div><img src='images/WWW24.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">WWW 2024</div><img src='images/WWW24.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Zero-shot Explainable Mental Health Analysis on Social Media by Incorporating Mental Scales](https://arxiv.org/abs/2402.10948)
