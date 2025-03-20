@@ -20,7 +20,7 @@ redirect_from:
 <br>
 😎😎 **Welcome to my personal website!** 😎😎
 
-I am Wenyu Li, you can also call me Wind. I am now a third year undergraduate of South China University of Technology at Guangzhou, China, and you can find my CV [here](/WenyuLi_CV.pdf).
+I am Wenyu Li, you can also call me Wind. I am now a final year undergraduate of South China University of Technology at Guangzhou, China, and you can find my CV [here](/WenyuLi_CV.pdf).
 
 My research has primarily centered on information retrieval and text comprehension, leveraging advanced NLP techniques to bridge interdisciplinary domains. As I deepen my exploration of Large Language Models (LLMs), my goal is to expand my research to encompass a broader spectrum of LLM applications, moving beyond the realms of information understanding and retrieval. 
 
