@@ -56,7 +56,7 @@ Fang Guo\*, **Wenyu Li\***, Honglei Zhuang, Yun Luo, Yafu Li, Qi Zhu, Le Yan, Yu
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">WWW 2024</div><img src='images/WWW24.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">WWW 2024 Short</div><img src='images/WWW24.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Zero-shot Explainable Mental Health Analysis on Social Media by Incorporating Mental Scales](https://arxiv.org/abs/2402.10948)
